@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>15B75318-6930-4622-BEA1-DEB761E5BE24</string>
+	<string>BEE0D172-1299-490E-8088-8919CECF10B1</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Pandemic</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/aaquino3/Moardots.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Pandemic/Pandemic.xcodeproj/project.xcworkspace</string>
+	<string>Pandemic.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>60F8B26A-25A0-41D8-875A-F9D06F93EDCC</key>
-		<string>../../..</string>
+		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/aaquino3/Moardots.git</string>
