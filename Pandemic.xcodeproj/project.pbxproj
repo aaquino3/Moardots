@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6C5D231317FC74EB00172057 /* Pandemic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pandemic; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C5D231317FC74EB00172057 /* Pandemic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Pandemic; path = "/Volumes/Files HD/Dropbox/CSUEB/Fall 2013/CS4310/Project/Moardots/build/Debug/Pandemic"; sourceTree = "<absolute>"; };
 		6C5D231617FC74EC00172057 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6CF6104C17FE13AC009CCDB4 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
 		6CF6104D17FE1463009CCDB4 /* roster.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = roster.txt; sourceTree = "<group>"; };
@@ -45,16 +45,7 @@
 			isa = PBXGroup;
 			children = (
 				6C5D231517FC74EB00172057 /* Pandemic */,
-				6C5D231417FC74EB00172057 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		6C5D231417FC74EB00172057 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6C5D231317FC74EB00172057 /* Pandemic */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		6C5D231517FC74EB00172057 /* Pandemic */ = {
@@ -105,7 +96,7 @@
 				en,
 			);
 			mainGroup = 6C5D230A17FC74EB00172057;
-			productRefGroup = 6C5D231417FC74EB00172057 /* Products */;
+			productRefGroup = 6C5D230A17FC74EB00172057;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
