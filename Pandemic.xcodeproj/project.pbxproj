@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		6C5D231317FC74EB00172057 /* Pandemic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pandemic; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C5D231617FC74EC00172057 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6CF6104C17FE13AC009CCDB4 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		6CF6104D17FE1463009CCDB4 /* roster.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = roster.txt; sourceTree = "<group>"; };
+		6CF6104E17FE1463009CCDB4 /* THIS IS A TEST.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "THIS IS A TEST.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +60,10 @@
 		6C5D231517FC74EB00172057 /* Pandemic */ = {
 			isa = PBXGroup;
 			children = (
+				6CF6104D17FE1463009CCDB4 /* roster.txt */,
+				6CF6104E17FE1463009CCDB4 /* THIS IS A TEST.txt */,
 				6C5D231617FC74EC00172057 /* main.cpp */,
+				6CF6104C17FE13AC009CCDB4 /* File.txt */,
 			);
 			path = Pandemic;
 			sourceTree = "<group>";
