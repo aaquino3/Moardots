@@ -17,6 +17,7 @@ int main(int argc, const char * argv[])
     cout << "Hello" << endl;
     cout << "my name is ardee aquino" << endl;
     cout << "I am doing this from a browser." << endl;
+    cout << "Spencer has added his name to roster.txt" << endl;
     return 0;
 }
 
