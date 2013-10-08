@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C5D231717FC74EC00172057 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C5D231617FC74EC00172057 /* main.cpp */; };
+		6CE9E7711804AB0200726AF5 /* driverProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6CE9E76F1804AB0200726AF5 /* driverProgram.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,11 +24,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		6C0FA19017FEAFAB00C8B3CE /* Pandemic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = Pandemic; path = "/Volumes/Files HD/Dropbox/CSUEB/Fall 2013/CS4310/Project/Moardots/build/Debug/Pandemic"; sourceTree = "<absolute>"; };
 		6C5D231617FC74EC00172057 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		6CF6104C17FE13AC009CCDB4 /* File.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = File.txt; sourceTree = "<group>"; };
+		6CE9E76D1804AACD00726AF5 /* Pandemic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pandemic; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CE9E76F1804AB0200726AF5 /* driverProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driverProgram.cpp; sourceTree = "<group>"; };
+		6CE9E7701804AB0200726AF5 /* driverProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = driverProgram.h; sourceTree = "<group>"; };
 		6CF6104D17FE1463009CCDB4 /* roster.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = roster.txt; sourceTree = "<group>"; };
-		6CF6104E17FE1463009CCDB4 /* THIS IS A TEST.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "THIS IS A TEST.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 			isa = PBXGroup;
 			children = (
 				6C5D231517FC74EB00172057 /* Pandemic */,
+				6CE9E76D1804AACD00726AF5 /* Pandemic */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,9 +54,9 @@
 			isa = PBXGroup;
 			children = (
 				6CF6104D17FE1463009CCDB4 /* roster.txt */,
-				6CF6104E17FE1463009CCDB4 /* THIS IS A TEST.txt */,
 				6C5D231617FC74EC00172057 /* main.cpp */,
-				6CF6104C17FE13AC009CCDB4 /* File.txt */,
+				6CE9E76F1804AB0200726AF5 /* driverProgram.cpp */,
+				6CE9E7701804AB0200726AF5 /* driverProgram.h */,
 			);
 			path = Pandemic;
 			sourceTree = "<group>";
@@ -76,7 +78,7 @@
 			);
 			name = Pandemic;
 			productName = Pandemic;
-			productReference = 6C0FA19017FEAFAB00C8B3CE /* Pandemic */;
+			productReference = 6CE9E76D1804AACD00726AF5 /* Pandemic */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -110,6 +112,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CE9E7711804AB0200726AF5 /* driverProgram.cpp in Sources */,
 				6C5D231717FC74EC00172057 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
