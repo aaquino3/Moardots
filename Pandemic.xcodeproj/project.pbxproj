@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		6C5D231617FC74EC00172057 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		6C70E8E81805BA7200272410 /* Cards.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = Cards.rtf; sourceTree = "<group>"; };
+		6CBEC8931805E88400168550 /* Pandemic Story VasiliyRodin.docx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pandemic Story VasiliyRodin.docx"; sourceTree = "<group>"; };
 		6CE9E76D1804AACD00726AF5 /* Pandemic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pandemic; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CE9E76F1804AB0200726AF5 /* driverProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = driverProgram.cpp; sourceTree = "<group>"; };
 		6CE9E7701804AB0200726AF5 /* driverProgram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = driverProgram.h; sourceTree = "<group>"; };
@@ -54,7 +55,7 @@
 		6C5D231517FC74EB00172057 /* Pandemic */ = {
 			isa = PBXGroup;
 			children = (
-				6C70E8E91805BAA300272410 /* userStories */,
+				6CBEC8921805E88400168550 /* Pandemic Stories */,
 				6C70E8E81805BA7200272410 /* Cards.rtf */,
 				6CF6104D17FE1463009CCDB4 /* roster.txt */,
 				6C5D231617FC74EC00172057 /* main.cpp */,
@@ -64,11 +65,12 @@
 			path = Pandemic;
 			sourceTree = "<group>";
 		};
-		6C70E8E91805BAA300272410 /* userStories */ = {
+		6CBEC8921805E88400168550 /* Pandemic Stories */ = {
 			isa = PBXGroup;
 			children = (
+				6CBEC8931805E88400168550 /* Pandemic Story VasiliyRodin.docx */,
 			);
-			path = userStories;
+			path = "Pandemic Stories";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
