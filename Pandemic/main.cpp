@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #include <iostream>
 #include "driverProgram.h"
 
@@ -18,20 +18,3 @@ int main(int argc, const char * argv[])
 
     return 0;
 }
-
-=======
-#include <iostream>
-#include "driverProgram.h"
-
-using namespace std;
-
-int main(int argc, const char * argv[])
-{
-
-    //main hello world
-    cout << "Hello" << endl;
-
-    return 0;
-}
-
->>>>>>> 7eed46e342422e56861b370b2b9fbe6667505958
