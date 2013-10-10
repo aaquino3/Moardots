@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>4055B193-E4D8-42FC-8F42-A4DC0191014F</string>
+	<string>C53F495A-B346-4099-BFFB-6F7106B1A367</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Pandemic</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>60F8B26A-25A0-41D8-875A-F9D06F93EDCC</key>
+		<key>4351D3FA-4623-4B7A-B143-CAB0C30D3236</key>
 		<string>https://github.com/aaquino3/Moardots.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Pandemic.xcodeproj/project.xcworkspace</string>
+	<string>Pandemic/Pandemic.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>60F8B26A-25A0-41D8-875A-F9D06F93EDCC</key>
-		<string>../..</string>
+		<key>4351D3FA-4623-4B7A-B143-CAB0C30D3236</key>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/aaquino3/Moardots.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>60F8B26A-25A0-41D8-875A-F9D06F93EDCC</string>
+	<string>4351D3FA-4623-4B7A-B143-CAB0C30D3236</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>60F8B26A-25A0-41D8-875A-F9D06F93EDCC</string>
+			<string>4351D3FA-4623-4B7A-B143-CAB0C30D3236</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Pandemic</string>
+			<string>Moardots</string>
 		</dict>
 	</array>
 </dict>
