@@ -9,7 +9,6 @@ int main(int argc, const char * argv[])
     cout << "Hello" << endl;
     cout << "my name is ardee aquino" << endl;
     cout << "testing eclipse" << endl;
-    cout << "Testing eclipse again" << endl;
-
+    cout << "eclipse" << endl;
     return 0;
 }
