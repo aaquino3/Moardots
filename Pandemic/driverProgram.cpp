@@ -7,3 +7,23 @@
 //
 
 #include "driverProgram.h"
+
+City::City(string iName, int iNumberOfDisease, bool iCure)
+{
+	cityName = iName;
+	numberOfDiseases = iNumberOfDisease;
+	cure = iCure;
+}
+
+string City::getName()
+{
+	return cityName;
+}
+int City::getNumberOfDiseases()
+{
+	return numberOfDiseases;
+}
+int City:: getCure()
+{
+	return cure;
+}
