@@ -7,6 +7,7 @@
 //
 
 #include "driverProgram.h"
+using namespace std;
 
 City::City(string iName, int iNumberOfDisease, bool iCure)
 {
@@ -23,7 +24,7 @@ int City::getNumberOfDiseases()
 {
 	return numberOfDiseases;
 }
-int City:: getCure()
+bool City::getCure()
 {
 	return cure;
 }

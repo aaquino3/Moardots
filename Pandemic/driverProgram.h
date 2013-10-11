@@ -11,6 +11,7 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 
 class City
@@ -24,12 +25,10 @@ public:
 	City(string,int,bool);
 
 	string getCityName();
+	string getName();
 	int getNumberOfDiseases();
 	bool getCure();
-}
-
-
-}
+};
 #endif /* defined(__Pandemic__driverProgram__) */
 
 
