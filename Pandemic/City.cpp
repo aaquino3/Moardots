@@ -6,7 +6,7 @@
 //  Copyright (c) 2013 Ardee Aquino. All rights reserved.
 //
 
-#include "driverProgram.h"
+#include "City.h"
 using namespace std;
 
 City::City(string iName, int iNumberOfDisease, bool iCure)

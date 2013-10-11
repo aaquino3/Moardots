@@ -6,8 +6,8 @@
 //  Copyright (c) 2013 Ardee Aquino. All rights reserved.
 //
 
-#ifndef PANDEMIC_H
-#define PANDEMIC_H
+#ifndef _CITY_H
+#define _CITY_H
 
 #include <iostream>
 #include <string>
