@@ -1,6 +1,9 @@
 #include <iostream>
+#include "Card.h"
 #include "City.h"
 #include "Controller.h"
+#include "Deck.h"
+#include "Model.h"
 using namespace std;
 
 int main(int argc, const char * argv[])
