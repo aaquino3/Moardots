@@ -1,0 +1,14 @@
+Role|
+Dispatcher|
+	* Move another player's pawn as if it were yours.
+
+	* As an action, move any pawn to a city with another pawn.
+
+	* Get permission before moving another player's pawn.|
+Role|
+Operations Expert|
+	* As an action, build a research station in the city 
+	  you are in (no City card needed).
+
+	* Once per turn as an action, move from a research station 
+          to any city by discarding any Citiy card.|

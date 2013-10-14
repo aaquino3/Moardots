@@ -1,29 +1,23 @@
-/*******************************************
-* By: Edgar Reyes
-*
-* Descreption: This class represents a single
-* card. It has a name and a descreption of
-* what the card does.
-*******************************************/
-
 #ifndef CARD_H
 #define CARD_H
+
 #include <string>
 using namespace std;
-
 class Card
 {
     private:
-        string name;
-        string description;
+    string type;
+    string name;
+    string description;
+
     public:
         Card();
         Card(string, string);
-        ~Card();
+        void setType(string);
         void setName(string);
-        string getName();
         void setDescription(string);
+        string getType();
+        string getName();
         string getDescription();
 };
-
-#endif // CARD_H
+#endif
