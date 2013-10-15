@@ -5,13 +5,14 @@
 #include "Card.h"
 #include "File.h"
 #include <string>
+#include <deque>
+#include <algorithm>
 using namespace std;
 class Deck
 {
     private:
-        Card *cards;
-        // may not be needed
-        //string *cardTypes;
+		//using deque because it can push front and back
+        deque <Card> cards;
         int size;
         File *file;
     public:
@@ -21,11 +22,12 @@ class Deck
 
         // reads in cards from file, and delimiter
         void readInCards(string, char);
-        void setCard(string, string);
 
-        Card dealCard(int);
+        Card dealCard();
         void shuffle();
-
+		bool isDeckEmpty();
+		void putCardOnBack(Card);
+		void putCardOnFront(Card);
 };
 
 #endif // DECK_H
