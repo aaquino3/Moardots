@@ -4,12 +4,21 @@
 #include <cstdlib>
 #include "Deck.h"
 #include "Card.h"
+#include "Player.h"
+#include "City.h"
+#include "Hand.h"
+#include "File.h"
 using namespace std;
 
 int main()
 {
+
 	// random seeder
 	srand(unsigned(time(0)));
+
+	//checking if player works
+    cout << endl;
+    Player getInfo("Ardee", "Nerd");
 
     int sizeOfDeck = 7;
     Deck roleDeck(sizeOfDeck);

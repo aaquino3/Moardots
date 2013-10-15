@@ -16,6 +16,7 @@ Player::Player(string pName, string pRole)
 {
 	playerName = pName;
 	playerRole = pRole;
+	cout << "My name is " << pName << " and my role is a " << pRole << endl;
 }
 
  string Player::getPlayerName()
