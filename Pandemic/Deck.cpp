@@ -15,6 +15,7 @@ Deck::~Deck()
 	reads in card information from a file
 	uses a vector which uses in this case LIFO
 */
+
 void Deck::readInCards(string fileName, char delimiter)
 {
     //will read untill delimiter found
@@ -42,7 +43,6 @@ Card Deck::dealCard()
 	return temp;
 }
 
-
 /*
 	check to see if deck is empty return a boolean
 */
@@ -50,7 +50,6 @@ bool Deck::isDeckEmpty()
 {
 	return cards.empty();
 }
-
 
 /*
 	will shuffle the deck using algorithm random_shuffle
