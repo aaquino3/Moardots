@@ -10,8 +10,6 @@ class Dice
 {
 private:
   int random_num1, random_num2;
-  int lownum, highnum;
-  int range;
   
 public:
   Dice();
