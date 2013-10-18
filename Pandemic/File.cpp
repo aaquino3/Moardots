@@ -91,6 +91,25 @@ void File::setErrorLog(bool toggle)
     errorLog = toggle;
 }
 
+int File::countWords()
+{
+	int wordCount = 0;
+	bool allWordsFound = false;
+	string str;
+
+	while(!allWordsFound)
+	{
+		// will get string until space
+		getline(fin, str,' ');
+		if(!fin)
+			allWordsFound = true;
+		if(!allWordsFound && str != "")
+			wordCount++;
+	}
+
+	return wordCount;
+}
+
 /*
  * Destructor will call fileClose method;
  */

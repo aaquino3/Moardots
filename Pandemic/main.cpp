@@ -37,6 +37,9 @@ int main()
         cout << "Description: \n\n" << description << endl;
     }
 
+    File *file = new File("countTest.txt");
+    cout << "word count = " << file->countWords() << endl;
+    delete file;
 	getchar();
     return 0;
 }

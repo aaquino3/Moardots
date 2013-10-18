@@ -23,5 +23,6 @@ class File
         string getStr(char);
         void setErrorLog(bool);
         bool eof();
+        int countWords();
 };
 #endif // FILE_H
