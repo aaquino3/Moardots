@@ -23,7 +23,7 @@ int main()
     int sizeOfDeck = 7;
     Deck roleDeck(sizeOfDeck);
     Card temp;
-    roleDeck.readInCards("cards.txt", '|');
+    roleDeck.readInCards("roleCards.txt", '|');
 	roleDeck.shuffle();
     for(int i = 0; i < sizeOfDeck; i++)
     {
@@ -36,7 +36,9 @@ int main()
         cout << "name: " << name << endl;
         cout << "Description: \n\n" << description << endl;
     }
-
+	
+	/* this was a test for new methods in File, planning on updating the way it
+		reads the file
     File *file = new File("countTest.txt");
 	int wordCount = file->countWords();
 	string *str = file->getWords();
@@ -48,6 +50,7 @@ int main()
 		cout << str[i] << endl;
 	}
 	delete file;
+	*/
 	getchar();
     return 0;
 }

@@ -13,6 +13,10 @@ class Model
 {
     private:
         int numberOfPlayers;
+		Player *players;		// array of players
+		Deck *roleDeck;			// Deck to deal role cards
+
+
 
         /*
          * will be a dynamic array of players
@@ -23,5 +27,6 @@ class Model
     public:
         Model();
         ~Model();
+		Card dealRoleCard();
 };
 #endif // _MODEL_H
