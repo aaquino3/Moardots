@@ -10,7 +10,11 @@ using namespace std;
 class Deck
 {
     private:
-		//using deque because it can push front and back
+		/*
+		 * using a dequeue because its a doubly linked list
+		 * allowing use to cards from the top and bottom of the deck
+		 * as well as place cards on the top or bottom of the deck.
+		 */
         deque <Card> cards;
         int size;
         File *file;
@@ -19,9 +23,7 @@ class Deck
         Deck(int);
         ~Deck();
 
-        // reads in cards from file, and delimiter
         void readInCards(string, char);
-
         Card dealCard();
         void shuffle();
 		bool isDeckEmpty();

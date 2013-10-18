@@ -1,11 +1,17 @@
 #include "Deck.h"
 
+/*
+ * Constructor to initialize size
+ */
 Deck::Deck(int size)
 {
     this->size = size;
     file = 0;
 }
 
+/*
+ * Destructor erases dequeue
+ */
 Deck::~Deck()
 {
 	cards.erase(cards.begin(), cards.end());
@@ -13,12 +19,12 @@ Deck::~Deck()
 
 /*
 	reads in card information from a file
-	uses a vector which uses in this case LIFO
+	uses a dequeue which is a doubly link list
 */
 
 void Deck::readInCards(string fileName, char delimiter)
 {
-    //will read untill delimiter found
+    //will read until delimiter found
     file = new File(fileName);
     for(int count = 0; count < size; count++)
     {
@@ -53,18 +59,24 @@ bool Deck::isDeckEmpty()
 
 /*
 	will shuffle the deck using algorithm random_shuffle
-	to shuffle a vector holding the cards
+	to shuffle a dequeue holding the cards
 */
 void Deck::shuffle()
 {
 	random_shuffle(cards.begin(), cards.end());
 }
 
+/*
+ * places a card on the bottom of deck
+ */
 void Deck::putCardOnBack(Card card)
 {
 	cards.push_back(card);
 }
 
+/*
+ * places a card on the top of deck
+ */
 void Deck::putCardOnFront(Card card)
 {
 	cards.push_front(card);

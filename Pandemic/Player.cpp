@@ -16,6 +16,9 @@ Player::Player(string pName, string pRole)
 {
 	playerName = pName;
 	playerRole = pRole;
+
+	/* we should avoid doing this because client may want to change this and
+	 * we dont want this printed every time we create a this object*/
 	cout << "My name is " << pName << " and my role is a " << pRole << endl;
 }
 
