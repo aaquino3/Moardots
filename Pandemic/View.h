@@ -13,5 +13,8 @@ class View
 		void printCard(Card);
 		void printPlayer(Player);
 		
+
+		// Updates
+		void updateIntro(string);
 };
 #endif // VIEW_H_VIEW_H_

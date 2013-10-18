@@ -15,18 +15,12 @@ class Model
         int numberOfPlayers;
 		Player *players;		// array of players
 		Deck *roleDeck;			// Deck to deal role cards
-
-
-
-        /*
-         * will be a dynamic array of players
-         */
-        Player *players;
-        Dice *dice;
+		string title;
 
     public:
         Model();
         ~Model();
 		Card dealRoleCard();
+		string getTitle();
 };
 #endif // _MODEL_H

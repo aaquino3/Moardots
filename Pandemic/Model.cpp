@@ -7,7 +7,10 @@ Model::Model()
 	roleDeck->readInCards("roleCards.txt",'|');
 	roleDeck->shuffle();
 
+	// will update to display ascii are of Pandemic
+	title = "Pandemic";
 
+	players = 0;
 
 }
 
@@ -16,7 +19,10 @@ Card Model::dealRoleCard()
 	return roleDeck->dealCard();
 }
 
-
+string Model::getTitle()
+{
+	return title;
+}
 Model::~Model()
 {
 	delete roleDeck;

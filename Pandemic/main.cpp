@@ -8,18 +8,32 @@
 #include "City.h"
 #include "Hand.h"
 #include "File.h"
+#include "Model.h"
+#include "View.h"
+#include "Controller.h"
+
 using namespace std;
 
 int main()
 {
 
-	// random seeder
+	// random seeder It's only called once in main
 	srand(unsigned(time(0)));
 
+	// Model View Controller
+	Model model;
+	View view;
+	Controller controller(model, view);
+
+	controller.updateIntro();
+
+	/*
 	//checking if player works
     cout << endl;
     Player getInfo("Ardee", "Nerd");
+	*/
 
+	/*
     int sizeOfDeck = 7;
     Deck roleDeck(sizeOfDeck);
     Card temp;
@@ -36,7 +50,7 @@ int main()
         cout << "name: " << name << endl;
         cout << "Description: \n\n" << description << endl;
     }
-	
+	*/
 	/* this was a test for new methods in File, planning on updating the way it
 		reads the file
     File *file = new File("countTest.txt");
