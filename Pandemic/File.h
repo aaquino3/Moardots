@@ -24,5 +24,6 @@ class File
         void setErrorLog(bool);
         bool eof();
         int countWords();
+        string* getWords();
 };
 #endif // FILE_H
