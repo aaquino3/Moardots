@@ -110,6 +110,28 @@ int File::countWords()
 	return wordCount;
 }
 
+string* File::getWords()
+{
+	int wordCount = countWords();
+	int position = 0;
+	bool gotAllWords = false;
+	string str;
+	string *words = new string[wordCount];
+
+	while(!gotAllWords)
+	{
+		getline(fin, str,' ');
+		if(!fin)
+			gotAllWords = true;
+		if(!gotAllWords &&str != "")
+		{
+			words[position] = str;
+			position++;
+		}
+	}
+
+	return words;
+}
 /*
  * Destructor will call fileClose method;
  */
