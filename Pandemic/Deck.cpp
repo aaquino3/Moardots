@@ -14,7 +14,8 @@ Deck::Deck(int size)
  */
 Deck::~Deck()
 {
-	cards.erase(cards.begin(), cards.end());
+	// is creating problems
+	//cards.erase(cards.begin(), cards.end());
 }
 
 /*

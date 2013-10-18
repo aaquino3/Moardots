@@ -9,8 +9,8 @@ Model::Model()
 
 	// will update to display ascii are of Pandemic
 	title = "Pandemic";
-
-	players = 0;
+	numberOfPlayers = 0;
+	//players = 0;
 
 }
 
@@ -25,5 +25,15 @@ string Model::getTitle()
 }
 Model::~Model()
 {
-	delete roleDeck;
+	//delete roleDeck;
+}
+
+void Model::setNumberOfPlayers(int num)
+{
+	numberOfPlayers = num;
+}
+
+int Model::getNumberOfPlayers()
+{
+	return numberOfPlayers;
 }

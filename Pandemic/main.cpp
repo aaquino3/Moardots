@@ -26,6 +26,8 @@ int main()
 	Controller controller(model, view);
 
 	controller.updateIntro();
+	controller.updateGetNumOfPlayers();
+	controller.updateDisplayNumOfPlayers();
 
 	/*
 	//checking if player works

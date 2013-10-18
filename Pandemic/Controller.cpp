@@ -6,12 +6,18 @@ Controller::Controller(Model model, View view)
 	this->view = view;
 }
 
-Card Controller::dealRoleCard()
-{
-	return model.dealRoleCard();
-}
 
 void Controller::updateIntro()
 {
 	view.updateIntro(model.getTitle());
+}
+
+void Controller::updateGetNumOfPlayers()
+{
+	model.setNumberOfPlayers(view.updateGetNumOfPlayers());
+}
+
+void Controller::updateDisplayNumOfPlayers()
+{
+	view.printNumOfPlayers(model.getNumberOfPlayers());
 }

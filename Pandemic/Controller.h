@@ -2,6 +2,11 @@
 #define _CONTROLLER_H
 #include "Model.h"
 #include "View.h"
+
+/*
+Controller:
+inbetween of Model and View
+*/
 class Controller
 {
     private:
@@ -14,6 +19,9 @@ class Controller
 
 
 		// updates
-		void updateIntro();
+		void updateIntro(); // is the title and other stuff
+		void updateGetNumOfPlayers();
+		void updateDisplayNumOfPlayers();
+
 };
 #endif // _CONTROLLER_H
