@@ -106,7 +106,8 @@ int File::countWords()
 		if(!allWordsFound && str != "")
 			wordCount++;
 	}
-
+	fin.clear();
+	fin.seekg(0);
 	return wordCount;
 }
 
@@ -129,7 +130,8 @@ string* File::getWords()
 			position++;
 		}
 	}
-
+	fin.clear();
+	fin.seekg(0);
 	return words;
 }
 /*

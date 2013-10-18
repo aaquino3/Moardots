@@ -38,8 +38,16 @@ int main()
     }
 
     File *file = new File("countTest.txt");
+	int wordCount = file->countWords();
+	string *str = file->getWords();
+
     cout << "word count = " << file->countWords() << endl;
-    delete file;
+    
+	for(int i = 0; i < wordCount; i++)
+	{
+		cout << str[i] << endl;
+	}
+	delete file;
 	getchar();
     return 0;
 }
