@@ -14,10 +14,59 @@
 
 using namespace std;
 
-Card::Card() {};
+//List of Stubs
 
-
-
+Card::Card(string name, string description) {}
+void Card::setType(string type) {}
+void Card::setName(string name) {}
+void Card::setDescription(string description) {}
+string Card::getType() { return ""; }
+string Card::getName() { return ""; }
+string Card::getDescription() { return ""; }
+City::City(string iName, int iNumberOfDisease, bool iCure) {}
+string City::getName() { return ""; }
+int City::getNumberofDiseases() { return 10; }
+bool City::getCure() { return true; }
+Controller::Controller(Model model, View view) {}
+void Controller::updateIntro() {}
+void Controller::updateGetNumOfPlayers() {}
+void Controller::updateDisplayNumOfPlayers() {}
+void View::updateIntro(string title) { cout << ""<< endl; }
+int View::updateGetNumOfPlayers() { return 4; }
+void View::printNumOfPlayers(int num) { cout << "4" << endl; }
+Player::Player(string pName, string pRole) {}
+string Player::getPlayerName() { return ""; }
+string Player::getPlayerRole() { return ""; }
+Model::Model() {}
+Card Model::dealRoleCard() { return Card; }
+string Model::getTitle() { return ""; }
+Model::~Model() {}
+void Model::setNumberOfPlayers(int num) {}
+int Model::getNumberOfPlayers() { return 4; }
+Hand::Hand() {}
+Hand::~Hand() {}
+void Hand::addCard(Card card) {}
+void Hand::getNextCard() {}
+Card Hand::getAndDiscardCard() { return Card; }
+Card Hand::getFrontCard() { return Card; }
+File::File(string fileName) {}
+void File::fileOpen(string fileName) { return; }
+void File::fileClose() {}
+string File::getStr() { return ""; }
+bool File::eof() { return false; }
+string File::getStr(char delimiter) { return ""; }
+void File::setErrorLog(bool toggle) {}
+int File::countWords() { return 10; }
+string* File::getWords() { return ""; }
+File::~File() {}
+Deck::Deck(int size) {}
+Deck::~Deck() {}
+void Deck::readInCards(string fileName, char delimiter) {}
+Card Deck::dealCard() { return Card; }
+bool Deck::isDeckEmpty() { return false; }
+void Deck::shuffle() {}
+void Deck::putCardOnBack(Card card) {}
+void Deck::putCardOnFront(Card card) {}
 
 
 
