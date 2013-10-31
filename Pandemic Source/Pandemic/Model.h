@@ -4,7 +4,6 @@
 #include "City.h"
 #include "Card.h"
 #include "Deck.h"
-#include "Dice.h"
 #include "File.h"
 #include "Hand.h"
 #include "Player.h"
