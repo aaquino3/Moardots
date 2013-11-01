@@ -5,37 +5,26 @@
  */
 Card::Card()
 {
-    name = "";
-    description = "";
+    type = true;    // true = player car, false = infection card
+    name = "";      // fill name with nothing
+    description = "";   // no description, empty card
+    eventType = 0;      // city
+    cityType = 0;       // not a city
 }
 
 /*
  * Constructor to initialize name and description
  */
-Card::Card(string name, string description)
-{
-    this->name = name;
-    this->description = description;
-}
-
-
-void Card::setType(string type)
+Card::Card(bool type, string name, string description, int event, int city)
 {
     this->type = type;
-}
-
-void Card::setName(string name)
-{
     this->name = name;
-}
-
-void Card::setDescription(string description)
-{
     this->description = description;
+    this->eventType = event;
+    this->cityType = city;
 }
 
-
-string Card::getType()
+bool Card::getType()
 {
     return type;
 }
@@ -48,4 +37,12 @@ string Card::getName()
 string Card::getDescription()
 {
     return description;
+}
+
+int Card::getEvent() {
+    return eventType;
+}
+
+int Card::getCity() {
+    return cityType;
 }

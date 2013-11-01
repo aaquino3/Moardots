@@ -10,25 +10,24 @@ using namespace std;
 class Deck
 {
     private:
-		/*
-		 * using a dequeue because its a doubly linked list
-		 * allowing use to cards from the top and bottom of the deck
-		 * as well as place cards on the top or bottom of the deck.
-		 */
+        /*
+         * using a dequeue because its a doubly linked list
+         * allowing use to cards from the top and bottom of the deck
+         * as well as place cards on the top or bottom of the deck.
+         */
         deque <Card> cards;
+        int type;               // this is the type of deck, player or infection. Effects what kind it builds
         int size;
-        File *file;
+        void buildDeck(int);    // builds the appropriate deck based on the type input, player never needs to use this, only called by constructor.
     public:
-        // Deck size
         Deck(int);
         ~Deck();
 
-        void readInCards(string, char);
         Card dealCard();
         void shuffle();
-		bool isDeckEmpty();
-		void putCardOnBack(Card);
-		void putCardOnFront(Card);
+        bool isEmpty();
+        void putCardOnBottom(Card);
+        void putCardOnTop(Card);
 };
 
 #endif // DECK_H
