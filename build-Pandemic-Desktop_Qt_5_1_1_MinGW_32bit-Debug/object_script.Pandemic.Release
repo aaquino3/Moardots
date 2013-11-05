@@ -1,0 +1,16 @@
+INPUT(
+./release\main.o
+./release\mainwindow.o
+./release\View.o
+./release\Player.o
+./release\Model.o
+./release\Map.o
+./release\Hand.o
+./release\File.o
+./release\Deck.o
+./release\Controller.o
+./release\City.o
+./release\Card.o
+./release\qrc_board.o
+./release\moc_mainwindow.o
+);
