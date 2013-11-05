@@ -22,7 +22,7 @@ class Model
     public:
         Model();
         ~Model();
-		Card dealRoleCard();
+        Card dealRoleCard(); // lets try to make the roles just randomly assigned player values instead of cards.
 		string getTitle();
 		void setNumberOfPlayers(int);
 		int getNumberOfPlayers();

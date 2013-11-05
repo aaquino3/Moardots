@@ -12,6 +12,7 @@ Hand::~Hand()
 
 void Hand::addCard(Card card)
 {
+    numCards++;
 	cards.push_front(card);
 }
 
@@ -23,8 +24,9 @@ void Hand::getNextCard()
 	cards.push_back(temp);
 }
 
-Card Hand::getAndDiscardCard()
+Card Hand::useCard()
 {
+    numCards--;
 	Card temp;
 	temp = cards.front();
 	cards.pop_front();
@@ -36,4 +38,8 @@ Card Hand::getAndDiscardCard()
 Card Hand::getFrontCard()
 {
 	return cards.front();
+}
+
+int Hand::getHandSize() {
+    return numCards;
 }
