@@ -15,7 +15,8 @@ Card::Card()
 /*
  * Constructor to initialize name and description
  */
-Card::Card(bool type, string name, string description, int event, int city)
+
+/*Card::Card(bool type, string name, string description, int event, int city)
 {
     this->type = type;
     this->name = name;
@@ -23,6 +24,7 @@ Card::Card(bool type, string name, string description, int event, int city)
     this->eventType = event;
     this->cityType = city;
 }
+*/
 
 bool Card::getType()
 {

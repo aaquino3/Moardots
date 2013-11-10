@@ -4,7 +4,7 @@ Model::Model()
 {
 	// staic size need to improve this
 	roleDeck = new Deck(7);
-	roleDeck->readInCards("roleCards.txt",'|');
+    //roleDeck->readInCards("roleCards.txt",'|');
 	roleDeck->shuffle();
 
 	// will update to display ascii are of Pandemic
