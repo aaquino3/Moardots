@@ -1,143 +1,64 @@
 #include "File.h"
 
-File::File(string fileName)
+File::File()
 {
-    errorOpenTxt = "Error no file open";
-    errorEofTxt = "EOF";
-    errorLog = false;
-
-    fileOpen(fileName);
+    fin = 0;
+    fout = 0;
 }
 
-/*
- * this will open a file with a string as the file name
- */
-void File::fileOpen(string fileName)
+void File::setReadFileName(string fileName)
 {
-    fin.open(fileName.c_str());
-    if(!fin.is_open())
-    {
-        if(errorLog == true)
-        cout << errorOpenTxt << endl;
-        return;
-    }
+    readFileName = fileName;
 }
 
-
-/*
- * will check if file is open if its not then
- * it will not do anything
- * if it is then it will close the file
- */
-void File::fileClose()
+void File::setWriteFileName(string fileName)
 {
-    if(fin.is_open())
-        fin.close();
+    writeFileName = fileName;
 }
 
-/*
- * this will get a line of text from a file
- */
-string File::getStr()
+string File::getReadFileName()
 {
-    string tempStr = "";
-    getline(fin, tempStr);
-    if(eof())
-    {
-        return "nullEOF";
-    }
-    return tempStr;
+    return readFileName;
 }
 
-/*
- * Checks for the End Of File
- */
-bool File::eof()
+string File::getWriteFileName()
 {
-    if(!fin)
-    {
-        if(errorLog == true)
-            cout << errorEofTxt << endl;
-        return true;
-    }
-
-    return false;
+    return writeFileName;
 }
 
-/*
- * Gets text from a file until it reaches a delimiter
- */
-string File::getStr(char delimiter)
+string File::readLine()
 {
-    string tempStr = "";
-    getline(fin, tempStr, delimiter);
-
-    if(eof())
-    {
-        return "nullEOF";
-    }
-
-    // read rest of line till return
-    getStr();
-
-    return tempStr;
+    string temp;
+    getline(*fin,temp);
+    return temp;
 }
 
-/*
- * allow us to toggle error messages
- */
-void File::setErrorLog(bool toggle)
+void File::writeLine(string data)
 {
-    errorLog = toggle;
+    *fout << data << '\n';
 }
 
-int File::countWords()
+void File::writeLine(int data)
 {
-	int wordCount = 0;
-	bool allWordsFound = false;
-	string str;
-
-	while(!allWordsFound)
-	{
-		// will get string until space
-		getline(fin, str,' ');
-		if(!fin)
-			allWordsFound = true;
-		if(!allWordsFound && str != "")
-			wordCount++;
-	}
-	fin.clear();
-	fin.seekg(0);
-	return wordCount;
+    *fout << data << '\n';
 }
 
-string* File::getWords()
+void File::writeLine(bool data)
 {
-	int wordCount = countWords();
-	int position = 0;
-	bool gotAllWords = false;
-	string str;
-	string *words = new string[wordCount];
-
-	while(!gotAllWords)
-	{
-		getline(fin, str,' ');
-		if(!fin)
-			gotAllWords = true;
-		if(!gotAllWords &&str != "")
-		{
-			words[position] = str;
-			position++;
-		}
-	}
-	fin.clear();
-	fin.seekg(0);
-	return words;
+    *fout << data << '\n';
 }
-/*
- * Destructor will call fileClose method;
- */
+
 File::~File()
 {
-    fileClose();
+    if(fin != 0)
+    {
+        delete fin;
+        fin = 0;
+    }
+
+    if(fout != 0)
+    {
+        delete fout;
+        fout = 0;
+    }
 }
