@@ -1,4 +1,4 @@
-#include <iostream>
+/*#include <iostream>
 #include <string>
 #include <ctime>
 #include <cstdlib>
@@ -86,7 +86,7 @@ int main()
         controller.updateGetNumOfPlayers();
         controller.updateDisplayNumOfPlayers();
 
-        /*
+
         //checking if player works
 cout << endl;
 Player getInfo("Ardee", "Nerd");
@@ -122,7 +122,8 @@ cout << "word count = " << file->countWords() << endl;
                 cout << str[i] << endl;
         }
         delete file;
-        */
+
         getchar();
     return 0;
-}
+};
+*/
