@@ -1,32 +1,63 @@
 #ifndef HAND_H
 #define HAND_H
 
-#include "Card.h"
+#include "card.h"
 #include <deque>
 class Hand
 {
 	private:
-        deque <Card> cards; // data structure to hold cards in hand
-        int numCards;       // used to easily check for how many cards to search for by client
+		deque <card> cards;
 	public:
 		Hand();
 		~Hand();
 		
 		//gets a card and discards it from the hand
-        Card useCard();
-
+		card getAndDiscardCard();
 		// will send front card to the back to get next card in line
 		void getNextCard();
 
 		// adds a card to the hand
-		void addCard(Card);
+		void addCard(card);
 
 		// returns the front card
-		Card getFrontCard();
-
-        // Informs client of hand size
-        int getHandSize();
+		card getFrontCard();
 };
 
-#endif
+Hand::Hand()
+{
+}
 
+
+Hand::~Hand()
+{
+}
+
+void Hand::addCard(card card)
+{
+	cards.push_front(card);
+}
+
+void Hand::getNextCard()
+{
+	card temp;
+
+	temp = cards.front();
+	cards.push_back(temp);
+}
+
+card Hand::getAndDiscardCard()
+{
+	card temp;
+	temp = cards.front();
+	cards.pop_front();
+
+	return temp;
+}
+
+
+card Hand::getFrontCard()
+{
+	return cards.front();
+}
+
+#endif

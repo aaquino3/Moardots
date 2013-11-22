@@ -1,41 +1,45 @@
-/*
- * Player.h
- *
- *  Created on: Oct 15, 2013
- *      Author: Ardee
- */
+#ifndef PLAYER_H
+#define PLAYER_H
 
-#ifndef PLAYER_H_
-#define PLAYER_H_
-
-#include <iostream>
 #include <string>
 using namespace std;
 
-class Player
-{
-	private:
-		string playerName;
-		string playerRole;
-		/*
-		 * Objects that we may need up to you.
-		 * - Player needs a Hand to hold the cards he may have. other then Role card
-		 * - player needs a card to hold the Role card
-		 *
-		 */
+class player {
+private:
+	string name; // player name
+	int role;
+	string location; // name of the city this player is currently in.
+	int PID; // player ID number, distinguish from other players.
+	int CID; // city ID of the player's location
+public:
+	player();
+	player(string Pname, string Plocation, int ID, int CID);
 
-	public:
-		Player();
-		Player(string, string);
-		string getPlayerName();
-		string getPlayerRole();
+	// MANIPULATION METHODS
+	void setLocation(string newLocation, int ID) { location = newLocation; CID = ID; }
+	void setName(string newName) { name = newName; }
+	void setPID(int ID) {PID = ID; }
 
-		/*
-		 * Some methods we may need:
-		 * + able to get a role card
-		 * + Hand Methods look in Hand class to get ideas
-		 *
-		 */
+	// ACCESS METHODS
+	string getLocation() { return location; }
+	string getName() { return name; }
+	int getPID() { return PID; }
+	int getCID() { return CID; }
 };
 
-#endif /* PLAYER_H_ */
+player::player() {
+	name = "please set";
+	location = "atlanta";
+	PID = 1;
+	CID = 1;
+	role = 0;
+}
+
+player::player(string Pname, string Plocation, int ID, int CityID) {
+	name = Pname;
+	location = Plocation;
+	PID = ID;
+	CID = CityID;
+}
+
+#endif PLAYER_H
