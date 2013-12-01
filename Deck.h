@@ -109,7 +109,6 @@ void deck::shufflePlayerDeck()
 	if(!isEmpty())
 	{
 		int j = 0;
-		int random = rand()%numCards;
 		card tempE[5];
 		card tempD[numCards];
 		card pileA[11];
