@@ -42,7 +42,7 @@ deck::~deck()
 }
 
 void deck::builddeck() {
-    string cityNames[48] = {"Atlanta", "Washington", "Toronto", "Chicago"}; // need to make an array of strings with the names of every city
+    string cityNames[48] = {"Atlanta", "Washington", "Montreal", "Chicago", "San Francisco", "New York", "Los Angeles", "Mexico City", "Miami"," Bogota","Lima","Sao Paulo","Bueno Aires","Santiago","Lagos","Kinshasa","Johanesburg","Khartoum","Cairo","Algiers","Riadh","Karachi","Baghdad","Istanbul","Moscow","Tehran","Delhi","Karachi","Mumbai","Chennai","Kolkata","London","Essen","St. Petersburg","Milan","Paris","Madrid","Beijing","Shanghai","Seoul","Tokyo","Osaka","Tripei","Hong Kong","Bangkok","Ho Chi Minh City","Jakarta","Sydney","Manila"}; // strings with the names of every city
 
     string eventNames[5] = {"Airlift", "One Quiet Night", "Forecast", "Government Grant", "Resilient Population"};
 
