@@ -135,31 +135,84 @@ void deck::shufflePlayerDeck()
 		}
 		shuffle();
 		
-		for(int i = 0; i<10; i++) // splitting deck and adding in epidemic cards
+		for(int i = 0; i<10; i++) // splitting 1st deck
 		{
 			pileA[i] = Pdeck[i];
 		}
+		//adding in 1st epidemic card randomly
 		pileA[11] = tempE[0];
+		int random = rand()%11;
+		card tempPile[11];
+		for( int i = 0; i < 11; i++)
+		{
+			tempPile[i] = pileA[random-1];
+		}
+		for( int i = 0; i < 11; i++)
+			pileA[i] = tempPile[i];
+		
+		//splitting 2nd
 		for(int i = 0; i<11; i++) 
 		{
 			pileB[i] = Pdeck[i+10];
 		}
+		//adding in 2nd epidemic card
 		pileB[12] = tempE[1];
+		int random = rand()%12;
+		card tempPile[12];
+		for( int i = 0; i < 12; i++)
+		{
+			tempPile[i] = pileB[random-1];
+		}
+		for( int i = 0; i < 12; i++)
+			pileB[i] = tempPile[i];
+			
+		//splitting 3rd	
 		for(int i = 0; i<11; i++) 
 		{
 			pileC[i] = Pdeck[i+10+11];
 		}
+		//adding in 3rd epidemic card
 		pileC[12] = tempE[2];
+		int random = rand()%12;
+		card tempPile[12];
+		for( int i = 0; i < 12; i++)
+		{
+			tempPile[i] = pileC[random-1];
+		}
+		for( int i = 0; i < 12; i++)
+			pileC[i] = tempPile[i];
+		
+		//splitting 4th
 		for(int i = 0; i<11; i++) 
 		{
 			pileD[i] = Pdeck[i+10+11+11];
 		}
+		//adding in 4th epidemic card
 		pileD[12] = tempE[3];
+		int random = rand()%12;
+		card tempPile[12];
+		for( int i = 0; i < 12; i++)
+		{
+			tempPile[i] = pileD[random-1];
+		}
+		for( int i = 0; i < 12; i++)
+			pileD[i] = tempPile[i];
+		
+		//splitting last one
 		for(int i = 0; i<11; i++) 
 		{
 			pileE[i] = Pdeck[i+10+11+11+11];
 		}
+		//adding in last epidemic card
 		pileE[12] = tempE[4];
+		int random = rand()%12;
+		card tempPile[12];
+		for( int i = 0; i < 12; i++)
+		{
+			tempPile[i] = pileE[random-1];
+		}
+		for( int i = 0; i < 12; i++)
+			pileE[i] = tempPile[i];
 
 		//stacking deck back together
 		for(int i = 0; i<11; i++)
