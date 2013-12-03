@@ -77,6 +77,9 @@ void controller::mainGameMenu(int PID) {
 		break;
 	case 4: //exitMenu();
 		break;
+	case 5:
+		Pmodel->saveGame();
+		break;
 	default: goto thisPlace;
 	}
 }

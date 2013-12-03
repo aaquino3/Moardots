@@ -6,6 +6,7 @@
 #include "deck.h"
 #include "hand.h"
 #include "board.h"
+#include "File.h"
 
 class model {
 private:
@@ -42,6 +43,9 @@ public:
 	bool gameEnd() { return gameEnds; }
 	int getCurrentTurn() {return currentTurn; }
 	int getActionCount() { return actionCount; }
+
+	// save game methods
+	void saveGame();
 };
 
 // DEFAULT CONSTRUCTOR
@@ -128,5 +132,29 @@ hand * model::accessHand(int PID) {
 	return tempH;
 }
 
+void model::saveGame()
+{
+	File file;
 
+	// save player deck
+	file.setWriteFileName("PlayerDeck.txt");
+	int size = Pdeck->getDeckSize();
+	file.openWrite();
+
+	for(int counter = 0; counter < size; counter++)
+	{
+		// cant write boolean to file so will write 1 or 0
+		if(Pdeck->getCard(counter).getType() == true)
+			file.writeLine(1);
+		else
+			file.writeLine(0);
+
+		file.writeLine(Pdeck->getCard(counter).getName());
+		file.writeLine(Pdeck->getCard(counter).getDescription());
+		file.writeLine(Pdeck->getCard(counter).getEvent());
+		file.writeLine(Pdeck->getCard(counter).getCity());
+
+	}
+
+}
 #endif // MODEL_H
