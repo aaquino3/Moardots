@@ -51,7 +51,8 @@ int view::gameMenu() {
 	cout << "1) Show the game board. " << endl;
 	cout << "2) Show the hand of the current player. " << endl;
 	cout << "3) Show the Action Menu. " << endl;
-	cout << "4) Exit Game. " << endl;
+	cout << "4) Save Game. " << endl;
+	cout << "5) Exit Game. " << endl;
 	cin >> temp;
 	system("CLS");
 	return temp;

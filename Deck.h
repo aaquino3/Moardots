@@ -19,6 +19,7 @@ class deck
         ~deck();
 
         card dealCard();
+		card getCard(int);						// needed to retrive information without removing card for saving game
 		bool isEmpty() { return !numCards; }
 		int getDeckSize() { return numCards; }
 };
@@ -147,7 +148,11 @@ void deck::shufflePlayerDeck() {
 	Pdeck[56] = TempPiles[3][14];
 }
 
-
+card deck::getCard(int loc)
+{
+	// some one add 
+	return Pdeck[loc];
+}
 #endif // DECK_H
 
 /*

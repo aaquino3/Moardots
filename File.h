@@ -79,6 +79,7 @@ public:
 	int readLine();					// reads a line returns 0 on success or -1 on file not open / -2 on EOF/error
 	string getLine();				// gets the last read string
 	int writeLine(string);			// writes a line to the write file, return -1 on fail
+	int writeLine(int);
 	int closeRead();				// closes read file returns -1 on fail
 	int closeWrite();				// closes write file return -1 on fail
 };
