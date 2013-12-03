@@ -134,11 +134,34 @@ hand * model::accessHand(int PID) {
 
 void model::saveGame()
 {
-	int numberOfPlayerCards = Pdeck->getDeckSize();
 	File file;
+	
+	// save Player Deck
 	file.setWriteFileName("playerDeck.txt");
 	file.openWrite();
+	
+	int numberOfPlayerCards = Pdeck->getDeckSize();
+	
 	for(int counter = 0; counter < numberOfPlayerCards; counter++)
+	{
+		if(Pdeck->getCard(counter).getType() == true)
+			file.writeLine(1);
+		else
+			file.writeLine(0);
+
+		file.writeLine(Pdeck->getCard(counter).getName());
+		file.writeLine(Pdeck->getCard(counter).getDescription());
+		file.writeLine(Pdeck->getCard(counter).getEvent());
+		file.writeLine(Pdeck->getCard(counter).getCity());
+	}
+	file.closeWrite();
+
+	// save infection deck
+	file.setWriteFileName("infectionDeck.txt");
+	file.openWrite();
+	int numberOfInfectionCards = Ideck->getDeckSize();
+
+	for(int counter = 0; counter < numberOfInfectionCards; counter++)
 	{
 		if(Pdeck->getCard(counter).getType() == true)
 			file.writeLine(1);
