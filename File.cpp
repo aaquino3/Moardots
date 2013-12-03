@@ -88,6 +88,16 @@ int File::writeLine(string line)
 	return 0;
 }
 
+int File::writeLine(int line)
+{
+	// checks to see if file is open
+	if(fout.is_open() == false)
+		return -1;
+
+	fout << line << endl;
+
+	return 0;
+}
 int File::closeRead()
 {
 	// check if file is open
