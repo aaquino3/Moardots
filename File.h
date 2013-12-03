@@ -74,16 +74,11 @@ public:
 	int openWrite();				// opens a write file, returns 0 on success or -1 on fail
 	void setReadFileName(string);	// sets the file Name for reading
 	void setWriteFileName(string); 	// set the file Name for writing
-	
 	string getReadFileName();		// gets the file Name for reading
 	string getWriteFileName();		// gets the file Name for writing
 	int readLine();					// reads a line returns 0 on success or -1 on file not open / -2 on EOF/error
 	string getLine();				// gets the last read string
-	
-	// could have used templates 
 	int writeLine(string);			// writes a line to the write file, return -1 on fail
-	int writeLine(int);				// writes an int to the write file, return -1 on fail
-	
 	int closeRead();				// closes read file returns -1 on fail
 	int closeWrite();				// closes write file return -1 on fail
 };
