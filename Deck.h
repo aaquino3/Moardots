@@ -1,28 +1,26 @@
 #ifndef DECK_H
 #define DECK_H
 
-
 #include <string>
-#include <ctime>
-#include <cstdlib>
 #include "card.h"
+#include <time.h>
 using namespace std;
-
 class deck
 {
     private:
-        card Pdeck[numCards];
+        card Pdeck[57];
         int type;               // this is the type of deck, player or infection. Effects what kind it builds
         int numCards;
         void builddeck();    // builds the appropriate deck based on the type input, player never needs to use this, only called by constructor.
+		void shuffle();
+		void shufflePlayerDeck();
     public:
         deck(int);
         ~deck();
-	void shufflePlayerDeck();
+
         card dealCard();
-        void shuffle();
-	bool isEmpty() { return !numCards; }
-	int getDeckSize() { return numCards; }
+		bool isEmpty() { return !numCards; }
+		int getDeckSize() { return numCards; }
 };
 
 // Constructor to initialize deck data
@@ -30,7 +28,8 @@ deck::deck(int deckType)
 {
     type = deckType;    // 0 = player, anything else = infection
     builddeck();		// build deck by type
-    shuffle();          // shuffle deck after building it.
+    if( deckType == 0 ) shufflePlayerDeck();
+	else shuffle();
 }
 
 // Destructor erases deque
@@ -42,7 +41,11 @@ deck::~deck()
 }
 
 void deck::builddeck() {
-    string cityNames[48] = {"Atlanta", "Washington", "Montreal", "Chicago", "San Francisco", "New York", "Los Angeles", "Mexico City", "Miami"," Bogota","Lima","Sao Paulo","Bueno Aires","Santiago","Lagos","Kinshasa","Johanesburg","Khartoum","Cairo","Algiers","Riadh","Karachi","Baghdad","Istanbul","Moscow","Tehran","Delhi","Karachi","Mumbai","Chennai","Kolkata","London","Essen","St. Petersburg","Milan","Paris","Madrid","Beijing","Shanghai","Seoul","Tokyo","Osaka","Tripei","Hong Kong","Bangkok","Ho Chi Minh City","Jakarta","Sydney","Manila"}; // strings with the names of every city
+    string cityNames[48] = {"Atlanta", "Washington", "Montreal", "Chicago", "San Francisco", "New York", "Los Angeles", "Mexico City", "Miami"," Bogota",
+							"Lima","Sao Paulo","Bueno Aires","Santiago","Lagos","Kinshasa","Johanesburg","Khartoum","Cairo","Algiers",
+							"Riadh","Karachi","Baghdad","Istanbul","Moscow","Tehran","Delhi","Mumbai","Chennai",
+							"Kolkata","London","Essen","St. Petersburg","Milan","Paris","Madrid","Beijing","Shanghai","Seoul",
+							"Tokyo","Osaka","Tripei","Hong Kong","Bangkok","Ho Chi Minh City","Jakarta","Sydney","Manila"}; // need to make an array of strings with the names of every city
 
     string eventNames[5] = {"Airlift", "One Quiet Night", "Forecast", "Government Grant", "Resilient Population"};
 
@@ -54,25 +57,25 @@ void deck::builddeck() {
     eventDescriptions[4] = "Take a card from the infection Discard Pile and remove it from the game.";
     string epidemicDescription = ""; // can be handled during output to GUI
     if(type == 0) {     // player deck
-        numCards = 59;
-        for(int i = 0; i < 48; i++) {
+        numCards = 57;
+        for(int i = 0; i <= 47; i++) {
             card * temp = new card(true, cityNames[i], "", 0, i);     // add all of the city cards
             Pdeck[i] = *temp;
         }
-        for(int i = 0; i < 4; i++) {
-            card * temp = new card(true, eventNames[i], eventDescriptions[i], i, 0);    // add the event cards
-            Pdeck[i+49] = *temp;
+        for(int i = 48; i <= 52 ; i++) {
+            card * temp = new card(true, eventNames[i-48], eventDescriptions[i-48], i-48, 0);    // add the event cards
+            Pdeck[i] = *temp;
         }
-        for(int i = 0; i < 4; i++) {
+        for(int i = 52; i <= 56; i++) {
             card * temp = new card(true, "epidemic", epidemicDescription, 6, 0);        // add the epidmic cards
-            Pdeck[i+54] = *temp;
+            Pdeck[i] = *temp;
         }
     } else {
         numCards = 48;
         for(int i = 0; i < 48; i++) {
             card * temp = new card(false, cityNames[i], "", 0, i);     // add all of the city cards
             Pdeck[i] = *temp;
-        }shuffle();//shuffles the city cards
+        }
     }
 }
 
@@ -84,162 +87,74 @@ card deck::dealCard()
 	return temp;
 }
 
-/*
-    needs to be altered with a custom shuffle method for the player deck.
-    The player deck requires that an epidemic card is placed randomly in every 10 draws.
-*/
 void deck::shuffle()
 {
 	srand( time(0) );
 	if(!isEmpty())
 	{
 		int random = rand()%numCards;
-		card tempDeck[numCards];
-		for( int i = 0; i < numCards; i++)
-		{
-			card tempDeck[i] = Pdeck[random-1];
+		card tempDeck[48];
+		bool tempDeckCheck[48];
+		for( int i = 0; i < 48; i++) tempDeckCheck[i] = false;
+
+		for( int i = 0; i < numCards; i++) {
+			random = rand()%numCards;				// random should result in a value between 0 - 47, which is an array index.
+			while( tempDeckCheck[random] ) random = rand()%numCards;	// checks if the card it is trying to assign has been assined.
+			tempDeck[i] = Pdeck[random];			// adds the card from the constructed array to the temp array for shuffling.
+			tempDeckCheck[random] = true;
 		}
 		for( int i = 0; i < numCards; i++)
-			Pdeck[i] = tempDeck[i];
+			Pdeck[i] = tempDeck[i];					// adds the cards back to the deck object private data member
 	}
 }
 
-void deck::shufflePlayerDeck()
-{
-	if(!isEmpty())
-	{
-		int j = 0;
-		card tempE[5];
-		card tempD[numCards];
-		card pileA[11];
-		card pileB[12];
-		card pileC[12];
-		card pileD[12];
-		card pileE[12];
-	
-		for(int i = 0; i<numCards; i++) //removing epidemic cards
-		{		
-			if(Pdeck[i].getName()) == "epidemic")
-			{
-				tempE[j] = Pdeck[i];
-				j++;
-			}
-			else
-			{
-				tempD[i-j] = Pdeck[i];
-			}
-		}
-		for(int i = 0; i<numCards; i++) //shuffling deck without epidemic cards
-		{
-			Pdeck[i] = tempD[i];
-		}
-		shuffle();
-		
-		for(int i = 0; i<10; i++) // splitting 1st deck
-		{
-			pileA[i] = Pdeck[i];
-		}
-		//adding in 1st epidemic card randomly
-		pileA[11] = tempE[0];
-		int random = rand()%11;
-		card tempPile[11];
-		for( int i = 0; i < 11; i++)
-		{
-			tempPile[i] = pileA[random-1];
-		}
-		for( int i = 0; i < 11; i++)
-			pileA[i] = tempPile[i];
-		
-		//splitting 2nd
-		for(int i = 0; i<11; i++) 
-		{
-			pileB[i] = Pdeck[i+10];
-		}
-		//adding in 2nd epidemic card
-		pileB[12] = tempE[1];
-		int random = rand()%12;
-		card tempPile[12];
-		for( int i = 0; i < 12; i++)
-		{
-			tempPile[i] = pileB[random-1];
-		}
-		for( int i = 0; i < 12; i++)
-			pileB[i] = tempPile[i];
-			
-		//splitting 3rd	
-		for(int i = 0; i<11; i++) 
-		{
-			pileC[i] = Pdeck[i+10+11];
-		}
-		//adding in 3rd epidemic card
-		pileC[12] = tempE[2];
-		int random = rand()%12;
-		card tempPile[12];
-		for( int i = 0; i < 12; i++)
-		{
-			tempPile[i] = pileC[random-1];
-		}
-		for( int i = 0; i < 12; i++)
-			pileC[i] = tempPile[i];
-		
-		//splitting 4th
-		for(int i = 0; i<11; i++) 
-		{
-			pileD[i] = Pdeck[i+10+11+11];
-		}
-		//adding in 4th epidemic card
-		pileD[12] = tempE[3];
-		int random = rand()%12;
-		card tempPile[12];
-		for( int i = 0; i < 12; i++)
-		{
-			tempPile[i] = pileD[random-1];
-		}
-		for( int i = 0; i < 12; i++)
-			pileD[i] = tempPile[i];
-		
-		//splitting last one
-		for(int i = 0; i<11; i++) 
-		{
-			pileE[i] = Pdeck[i+10+11+11+11];
-		}
-		//adding in last epidemic card
-		pileE[12] = tempE[4];
-		int random = rand()%12;
-		card tempPile[12];
-		for( int i = 0; i < 12; i++)
-		{
-			tempPile[i] = pileE[random-1];
-		}
-		for( int i = 0; i < 12; i++)
-			pileE[i] = tempPile[i];
+void deck::shufflePlayerDeck() {
+	// INITIALIZE VARIABLES
+	srand(time(0));
+	int randCard = 0;
+	card TempE[4];
+	card TempPiles[4][15];
+	bool tempDeckCheck[53];
+	for( int i = 0; i < 53; i++) tempDeckCheck[i] = false;
+	for( int i = 0; i < 4; i++) TempE[i] = Pdeck[(numCards-i)-1];
 
-		//stacking deck back together
-		for(int i = 0; i<11; i++)
-		{
-			pDeck[i] = pileA[i];
-		}
-		for(int i = 0; i<12; i++) 
-		{
-			Pdeck[i+11] = pileB[i];
-		}
-		for(int i = 0; i<12; i++) 
-		{
-			Pdeck[i+11+12] = pileC[i];
-		}
-		for(int i = 0; i<12; i++) 
-		{
-			Pdeck[i+11+12+12] = pileD[i];
-		}
-		for(int i = 0; i<12; i++) 
-		{
-			Pdeck[i+11+12+12+12] = pileE[i];
+	// BUILD THE PILES OF RANDOMIZED CARDS
+	for( int i = 1; i < 14; i++) {
+		for ( int j = 0; j < 3; j++) {
+			randCard = rand()%53;
+			while( tempDeckCheck[randCard] ) randCard = rand()%53;
+			TempPiles[j][i] = Pdeck[randCard];
+			tempDeckCheck[randCard] = true;
 		}
 	}
+	for( int i = 1; i < 15; i++) {
+		 randCard = rand()%53;
+		 while( tempDeckCheck[randCard] ) randCard = rand()%53;
+		 TempPiles[3][i] = Pdeck[randCard];
+		 tempDeckCheck[randCard] = true;
+	}
+	TempPiles[0][0] = TempE[0];	// place the epidemic cards at the bottom of each pile
+	TempPiles[1][0] = TempE[1];
+	TempPiles[2][0] = TempE[2];
+	TempPiles[3][0] = TempE[3];
+
+	// REBUILD THE DECK WITH THE RANDOM STACKS
+	int tempI = 0;
+	for( int i = 0; i < 56; i++) {
+		Pdeck[i] = TempPiles[i/14][tempI];
+		tempI = (++tempI)%14;
+	}
+	Pdeck[56] = TempPiles[3][14];
 }
-
-
-
 
 
 #endif // DECK_H
+
+/*
+Shuffle method error report: 
+The method was not accounting for whether a random card was pulled twice from the first array. 
+This allowed for it to duplicate cards in the resulting array while trying to shuffle. I added an 
+array of bools that will flag whether a specific card has been shuffled into the temp deck already.
+The while loop will continue to pull new random numbers in the range until it finds the one that has 
+not been pulled. This is wildly inefficient, but it is the only way I can think of doing it for now.
+*/

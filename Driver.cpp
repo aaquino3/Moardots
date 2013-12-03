@@ -8,7 +8,7 @@ int main() {
 	// a game, that way the customer model data can be loaded into it.
 	controller * control = new controller(); // default controller initiates its own model and view.
 
-	control->startGame();
+	control->startGameMenu();
 
 	char h;
 	cin >> h;

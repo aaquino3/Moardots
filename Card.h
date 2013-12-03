@@ -25,7 +25,13 @@ public:
     string getDescription();        // get card description (so player can see)
     int getEvent();                 // determine card function of the card (0 = city (player or infection), 1-5 = event, 6 = epidemic)
     int getCity();                  // determine what kind of city this card is.
+	card operator=(card * C);
 };
+
+card card::operator=(card * C) {
+	card copyCard(C->getType(), C->getName(), C->getDescription(), C->getEvent(), C->getCity());
+	return copyCard;
+}
 
 /*
  * Constructor initialize strings to empty strings

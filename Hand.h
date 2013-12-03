@@ -2,62 +2,29 @@
 #define HAND_H
 
 #include "card.h"
-#include <deque>
-class Hand
+class hand
 {
 	private:
-		deque <card> cards;
+		card Phand[10]; // player hand should never exceed 7, otherwise it should auto-discard.
+		int handSize;
 	public:
-		Hand();
-		~Hand();
+		hand();
 		
-		//gets a card and discards it from the hand
-		card getAndDiscardCard();
-		// will send front card to the back to get next card in line
-		void getNextCard();
+		//gets a card 
+		card * getCard(int n) { return &Phand[n]; }
+		int getHandSize() { return handSize; }
 
 		// adds a card to the hand
 		void addCard(card);
-
-		// returns the front card
-		card getFrontCard();
 };
 
-Hand::Hand()
-{
+hand::hand() {
+	handSize = 0;
 }
 
-
-Hand::~Hand()
-{
-}
-
-void Hand::addCard(card card)
-{
-	cards.push_front(card);
-}
-
-void Hand::getNextCard()
-{
-	card temp;
-
-	temp = cards.front();
-	cards.push_back(temp);
-}
-
-card Hand::getAndDiscardCard()
-{
-	card temp;
-	temp = cards.front();
-	cards.pop_front();
-
-	return temp;
-}
-
-
-card Hand::getFrontCard()
-{
-	return cards.front();
+void hand::addCard(card C) {
+	Phand[handSize] = C;
+	handSize++;
 }
 
 #endif

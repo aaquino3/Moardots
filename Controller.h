@@ -15,13 +15,18 @@ public:
 	controller();
 	controller(model * m, view * v);
 
-	// APP RUNNING
-	void startGame();	// displays the main menu and calls method based on user choice.
+	// Control Menus
+	void startGameMenu();	// displays the main menu and calls method based on user choice.
 	void settingsMenu();
+	void mainGameMenu(int);
 	void loadMenu();
+	void exitMenu();
+	void actionMenu(int);
+	void moveMenu();
+
+	// Control Actions
 	void newGame();		// calls appropriate methods to build a new game and begin playing.
 	void loadGame();	// builds a game from a file input, then begins play.
-
 };
 
 // DEFAULT CONSTRUCTOR
@@ -34,12 +39,17 @@ controller::controller(model * m, view * v) {
 	Pmodel = m;
 	Pview = v;
 }
+
+/*__________________________________CONTROL MENU METHODS__________________________________*/
+
 // finds out which main menu option the player wants, and proceeds by calling the appropriate methods
-void controller::startGame() {
-	int MenuChoice = Pview->mainMenu(); // calls the main menu method to retrieve user choice.
-	switch(MenuChoice) {
-	case 1: settingsMenu(); break;
-	case 2: loadMenu(); break;
+void controller::startGameMenu() {
+	switch(Pview->mainMenu()) { // calls the main menu method to retrieve user choice.
+	case 1: settingsMenu(); 
+		newGame();
+		break;
+	case 2: loadMenu(); 
+		break;
 	}
 }
 // asks for the number of players, then discovers the name of each player
@@ -48,16 +58,50 @@ void controller::settingsMenu() {
 	for(int i = 0; i < Pmodel->getNumPlayers(); i++) {
 		Pmodel->InitPlayer(Pview->namePlayer(i), "Atlanta", i, 0);
 	}
-	newGame();
+	Pmodel->dealHands();
 }
 
 void controller::loadMenu() {
 
 }
 
-void controller::newGame() {
-	Pview->drawBoard(Pmodel->accessBoard(), Pmodel->getNumPlayers());
+void controller::mainGameMenu(int PID) {
+	Pview->infoSec(Pmodel);
+	thisPlace:
+	switch(Pview->gameMenu()) {
+	case 1: Pview->drawBoard(Pmodel->accessBoard(), Pmodel->getNumPlayers());
+		break;
+	case 2: Pview->showHand(Pmodel->accessHand(PID));
+		break;
+	case 3: //actionMenu(Pview->showActionMenu());
+		break;
+	case 4: //exitMenu();
+		break;
+	default: goto thisPlace;
+	}
+}
 
+void controller::exitMenu() {
+
+}
+
+void controller::actionMenu(int actionChoice) {
+
+}
+
+void controller::moveMenu() {
+
+}
+
+/*__________________________________CONTROL ACTION METHODS__________________________________*/
+
+
+void controller::newGame() {
+	// build a new game, assigning the players roles and hands, and choosing who goes first. This can be handled in constructors of objects.
+	while(!Pmodel->gameEnd()) {
+		mainGameMenu(Pmodel->getCurrentTurn());
+
+	}
 }
 
 void controller::loadGame() {
