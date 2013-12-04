@@ -1,17 +1,5 @@
-﻿Build started 12/3/2013 3:09:31 PM.
-     1>Project "C:\Users\Vasiliy\Documents\GitHub\Moardots\VS Project Folder\PANDEMIC\PANDEMIC.vcxproj" on node 2 (build target(s)).
-     1>InitializeBuildStatus:
-         Creating "Debug\PANDEMIC.unsuccessfulbuild" because "AlwaysCreate" was specified.
-       ClCompile:
-         All outputs are up-to-date.
-       Link:
-         All outputs are up-to-date.
-         PANDEMIC.vcxproj -> C:\Users\Vasiliy\Documents\GitHub\Moardots\VS Project Folder\Debug\PANDEMIC.exe
-       FinalizeBuildStatus:
-         Deleting file "Debug\PANDEMIC.unsuccessfulbuild".
-         Touching "Debug\PANDEMIC.lastbuildstate".
-     1>Done Building Project "C:\Users\Vasiliy\Documents\GitHub\Moardots\VS Project Folder\PANDEMIC\PANDEMIC.vcxproj" (build target(s)).
+﻿Build started 12/4/2013 12:27:37 PM.
 
 Build succeeded.
 
-Time Elapsed 00:00:00.18
+Time Elapsed 00:00:00.06

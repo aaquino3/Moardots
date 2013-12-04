@@ -41,7 +41,7 @@ deck::~deck()
 }
 
 void deck::builddeck() {
-    string cityNames[48] = {"Atlanta", "Washington", "Montreal", "Chicago", "San Francisco", "New York", "Los Angeles", "Mexico City", "Miami"," Bogota",
+    string cityNames[48] = {"Atlanta", "Washington", "Montreal", "Chicago", "San Francisco", "New York", "Los Angeles", "Mexico City", "Miami","Bogota",
 							"Lima","Sao Paulo","Bueno Aires","Santiago","Lagos","Kinshasa","Johanesburg","Khartoum","Cairo","Algiers",
 							"Riadh","Karachi","Baghdad","Istanbul","Moscow","Tehran","Delhi","Mumbai","Chennai",
 							"Kolkata","London","Essen","St. Petersburg","Milan","Paris","Madrid","Beijing","Shanghai","Seoul",
@@ -89,7 +89,7 @@ card deck::dealCard()
 
 void deck::shuffle()
 {
-	srand( time(0) );
+	srand(unsigned(time(0))); // previously using srand(time(0)); which caused 64bit conversion to 32bit conversion to loose data
 	if(!isEmpty())
 	{
 		int random = rand()%numCards;
@@ -110,7 +110,7 @@ void deck::shuffle()
 
 void deck::shufflePlayerDeck() {
 	// INITIALIZE VARIABLES
-	srand(time(0));
+	srand(unsigned(time(0))); // previously using srand(time(0)); which caused 64bit conversion to 32bit conversion to loose data
 	int randCard = 0;
 	card TempE[4];
 	card TempPiles[4][15];
