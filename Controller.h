@@ -4,6 +4,7 @@
 #include <string>
 #include "view.h"
 #include "model.h"
+#include "player.h"
 
 
 class controller {
@@ -73,21 +74,29 @@ void controller::mainGameMenu(int PID) {
 		break;
 	case 2: Pview->showHand(Pmodel->accessHand(PID));
 		break;
-	case 3: //actionMenu(Pview->showActionMenu());
+	case 3: actionMenu(Pview->showActionMenu());
 		break;
-	case 4: Pmodel->saveGame();
-		break;
-	case 5:	//exitMenu();
+	case 4: exitMenu();
 		break;
 	default: goto thisPlace;
 	}
 }
 
 void controller::exitMenu() {
+	exit(1);
 
 }
 
 void controller::actionMenu(int actionChoice) {
+	if(actionChoice == 1)
+	{
+		int cityD;
+		cout<<"Which City would you like to go to?"<<endl;
+		Pview->drawBoard(Pmodel->accessBoard(), Pmodel->getNumPlayers());
+		cout<<"Choose the number of the City."<<endl;
+		cin>>cityD;
+		Pmodel->movePlayer(0, cityD, 1);}
+		Pview->drawBoard(Pmodel->accessBoard(), Pmodel->getNumPlayers());
 
 }
 
