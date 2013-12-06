@@ -39,7 +39,7 @@ public:
 };
 
 board::board() {
-	int infectRate = 0;
+	int infectRate = 2;
 	int OutbreakCounter = 0;
 	int numCities = 48;
 	// string cityNames[4] = {"Atlanta", "Washington", "Toronto", "Chicago"}; // needed to construct the cities names
@@ -64,9 +64,16 @@ board::board() {
 							{39,41,-1,-1,-1,-1},{37,42,47,40,-1,-1},{29,43,44,47,41,37},{29,28,45,44,42,-1},{42,43,45,47,-1,-1},
 							{27,43,44,46,-1,-1},{45,47,6,-1,-1,-1},{42,41,46,4,-1,-1}};
 
+	int vTypes[48] = {0,0,0,0,0,0,1,1,1,1,
+						1,1,1,1,1,1,1,1,2,2,
+						2,2,2,2,2,2,2,2,2,2,
+						0,0,0,0,0,0,3,3,3,3,
+						3,3,3,3,3,3,3,3};
+
 	for(int i = 0; i < numCities; i++) {
 		city * cTemp = new city(cityNames[i], i, cityLNums[i], cityLinks[i]);
 		cityList[i] = *cTemp;
+		cityList[i].setVType(vTypes[i]);
 	}
 }
 
