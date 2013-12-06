@@ -23,6 +23,8 @@ private:
 	int actionCount;
 	bool gameEnds;
 	bool roleList[7];
+	int infectionPool[4];
+	bool infectionCures[4];
 public:
 	model();
 
@@ -31,6 +33,12 @@ public:
 	void dealHands();
 	void setNumPlayers(int nPlayers) { numPlayers = nPlayers; }
 	bool movePlayer(int, int, int);
+	void setGameEnd(bool flag) { gameEnds = flag; }
+	void setActionCount(int AC) { actionCount = AC; }
+	void setupGame();
+	void setInfection(int,int);
+	void processTurn();
+	void cureDisease();
 
 	// model-side access methods
 	player * getPlayer(int ID);		// allows passingo a player object to the controller for a given turn
@@ -61,6 +69,12 @@ model::model() {
 	for(int i = 0; i < 7; i++) {
 		roleList[i] = true;
 	}
+	for(int i = 0; i < 4; i++) {
+		infectionPool[i] = 24;
+		infectionCures[i] = false;
+	}
+
+	setupGame();
 }
 
 
@@ -107,6 +121,48 @@ bool model::movePlayer(int fromCID, int toCID, int PID) {
 	return false; // signal that no move was made, and that there was an error
 }
 
+// sets up a new game
+void model::setupGame() {
+	// setup the infections on the board
+	for(int i = 3; i > 0; i--) {
+		for(int j = 0; j < 3; j++) {
+			setInfection(i,Ideck->dealCard().getCity());
+		}
+	}
+}
+
+void model::setInfection(int changeAmount, int CID) {
+	Pboard->getCity(CID)->setVCount(Pboard->getCity(CID)->getVCount() + changeAmount);
+	infectionPool[Pboard->getCity(CID)->getVType()] -= changeAmount;
+}
+
+void model::processTurn() {
+	if(actionCount == 0) {
+		getPlayer(currentTurn)->addCard(Pdeck->dealCard());
+		getPlayer(currentTurn)->addCard(Pdeck->dealCard()); // deal 2 cards
+		if(Pdeck->getDeckSize() < 0) gameEnds = true; // if player draws the last 2 cards the game will end
+		for(int i = 0; i < Pboard->getInfectRate(); i++) { // deal diseases at the end of turn
+			int CID = Ideck->dealCard().getCity();
+			setInfection(1, CID);
+		}
+		currentTurn = ++currentTurn % numPlayers;	// increment the turn
+	}
+}
+
+void model::cureDisease() {
+	int cureCounter = 0;
+	int tempPC = 0;
+	for(int i = 0; i < getPlayer(currentTurn)->getHand()->getHandSize(); i++) {
+		int tempC = getPlayer(currentTurn)->getHand()->getCard(i).getCity();
+		tempPC = Pboard->getCity(getPlayer(currentTurn)->getCID())->getVType();
+		if(Pboard->getCity(tempC)->getVType() == tempPC) {
+			cureCounter++;
+		}
+	}
+	if(cureCounter > 2) {
+		infectionCures[tempPC] = true;
+	}
+}
 
 
 /*__________________________________MODEL ACCESS METHODS________________________________________*/

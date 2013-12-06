@@ -13,6 +13,7 @@ public:
 	int mainMenu(); // cout a menu to ask the user for what their first option is
 	int gameMenu();
 	int showActionMenu();
+	int showExitMenu();
 
 	// INFO GATHERING
 	int numPlayer();
@@ -35,7 +36,7 @@ view::view() {
 int view::mainMenu() {
 	int choice = 0;
 	while(choice == 0) {
-		cout << "Pandemic: Main Menu:" << endl<<endl;
+		cout << "Pandemic: Main Menu:" << endl << endl;
 		cout << "Please select an option from the following: " << endl;
 		cout << "1) Start a new game (press 1 then enter)" << endl;
 		cout << "2) Load a game from a file (press 2 then enter)" << endl;
@@ -48,11 +49,13 @@ int view::mainMenu() {
 
 int view::gameMenu() {
 	int temp = 0;
-	cout << "1) Show the game board. " << endl;
-	cout << "2) Show the hand of the current player. " << endl;
-	cout << "3) Show the Action Menu. " << endl;
-	cout << "4) Exit Game. " << endl;
-	cin >> temp;
+	while( temp == 0 ) {
+		cout << "1) Show the game board. " << endl;
+		cout << "2) Show the hands of all players. " << endl;
+		cout << "3) Show the Action Menu. " << endl;
+		cout << "4) Exit Game. " << endl;
+		cin >> temp;
+	}
 	system("CLS");
 	return temp;
 }
@@ -63,7 +66,17 @@ int view::showActionMenu() {
 	cout << "2) Build a Research Station. " << endl;
 	cout << "3) Share a card with another player. " << endl;
 	cout << "4) Remove a disease counter from the current city. " << endl;
-	cout << "5) Cure a disease. " << endl;
+	cout << "5) Cure a disease." << endl;
+	cout << "6) Play an Event Card." << endl;
+	cin >> temp;
+	system("CLS");
+	return temp;
+}
+
+int view::showExitMenu() {
+	int temp = 0;
+	cout << "1) Exit without saving game." << endl;
+	cout << "2) Save game and exit." << endl;
 	cin >> temp;
 	system("CLS");
 	return temp;
@@ -108,7 +121,7 @@ void view::drawBoard(board * b, int numPlayers) {
 				cout << " P" << k;
 			}
 		}
-		cout << endl;
+		cout << endl << endl;
 	}
 }
 
@@ -126,7 +139,7 @@ void view::infoSec(model * M) {
 void view::showHand(hand * H) {
 	cout << endl << endl;
 	for(int i = 0; i < H->getHandSize(); i++) {
-		cout << "Card " << i << ") " << H->getCard(i)->getName() << endl;
+		cout << "Card " << i << ") " << H->getCard(i).getName() << endl;
 	}
 	cout << endl;
 }
