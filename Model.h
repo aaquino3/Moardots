@@ -270,12 +270,12 @@ void model::saveGame()
 		
 		file.setWriteFileName("player2.txt");
 		file.openWrite();
-		file.writeLine(P1->getLocation());
-		file.writeLine(P1->getName());
-		file.writeLine(P1->getRole());
-		file.writeLine(P1->getPID());
-		file.writeLine(P1->getCID());
-		file.writeLine(P1->getRID());
+		file.writeLine(P2->getLocation());
+		file.writeLine(P2->getName());
+		file.writeLine(P2->getRole());
+		file.writeLine(P2->getPID());
+		file.writeLine(P2->getCID());
+		file.writeLine(P2->getRID());
 		file.closeWrite();
 	}
 
@@ -285,12 +285,12 @@ void model::saveGame()
 	{
 		file.setWriteFileName("player3.txt");
 		file.openWrite();
-		file.writeLine(P1->getLocation());
-		file.writeLine(P1->getName());
-		file.writeLine(P1->getRole());
-		file.writeLine(P1->getPID());
-		file.writeLine(P1->getCID());
-		file.writeLine(P1->getRID());
+		file.writeLine(P3->getLocation());
+		file.writeLine(P3->getName());
+		file.writeLine(P3->getRole());
+		file.writeLine(P3->getPID());
+		file.writeLine(P3->getCID());
+		file.writeLine(P3->getRID());
 		file.closeWrite();
 	}
 	else
@@ -306,12 +306,12 @@ void model::saveGame()
 	{
 		file.setWriteFileName("player4.txt");
 		file.openWrite();
-		file.writeLine(P1->getLocation());
-		file.writeLine(P1->getName());
-		file.writeLine(P1->getRole());
-		file.writeLine(P1->getPID());
-		file.writeLine(P1->getCID());
-		file.writeLine(P1->getRID());
+		file.writeLine(P4->getLocation());
+		file.writeLine(P4->getName());
+		file.writeLine(P4->getRole());
+		file.writeLine(P4->getPID());
+		file.writeLine(P4->getCID());
+		file.writeLine(P4->getRID());
 		file.closeWrite();
 	}
 	else
