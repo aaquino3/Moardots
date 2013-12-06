@@ -7,6 +7,7 @@ using namespace std;
 class city {
 private:
 	string name;
+	int virusType;
 	int virusCount;
 	bool cure;
 	int CID; // city has ID for quick linking and searching
@@ -26,10 +27,12 @@ public:
 	void setVCount(int vCount) { virusCount = vCount; }
 	void setPlayer(int PID, bool present) { players[PID] = present; }
 	void setCure(bool CityCure) { cure = CityCure; }
+	void setVType(int Vtype) { virusType = Vtype; }
 
 	// ACCESS METHODS
 	string getName() { return name; }
 	int getVCount() { return virusCount; }
+	int getVType() { return virusType; }
 	bool isCured() { return cure; }
 	int getCID() { return CID; }
 	bool isPlayerHere(int PID) { return players[PID]; }
@@ -40,6 +43,7 @@ public:
 city::city() {
 	name = "noName";
 	virusCount = 0;
+	virusType = 0;
 	cure = false;
 	CID = 0;
 	numLinks = 0;
@@ -51,6 +55,7 @@ city::city() {
 city::city(string Cname, int ID, int Linknum, int Clinks[]) {
 	name = Cname;
 	virusCount = 0;
+	virusType = 0;
 	cure = false;
 	CID = ID;
 	numLinks = Linknum;
