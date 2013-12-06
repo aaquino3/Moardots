@@ -135,7 +135,52 @@ hand * model::accessHand(int PID) {
 void model::saveGame()
 {
 	File file;
-	
+	//===================================================================================
+	/*
+		files:
+		playerDeck.txt
+		infectionDeck.txt
+		board.txt
+		cities.txt
+		numberOfPlayers.txt
+		player1.txt
+		player2.txt
+		player3.txt
+		player4.txt
+	//-----------------------------------------------------------------------------------
+		playerDeck.txt
+		saves:
+		card name
+		card description
+		card event
+		card city
+	//-----------------------------------------------------------------------------------
+		infectionDeck.txt
+		saves:
+		card name
+		card description
+		card event
+		card city
+	//-----------------------------------------------------------------------------------
+		board.txt
+		saves:
+		infection rate
+		outbreak count
+		number of cities but is not working so hard coded !!needs fix when class fixed
+	//-----------------------------------------------------------------------------------
+		numberOfPlayers.txt
+		just saves the amount of players playing
+	//-----------------------------------------------------------------------------------
+		player#.txt
+		saves:
+		Location
+		Name
+		Role
+		PID
+		CID
+		RID
+	*/
+	//===================================================================================
 	// save Player Deck
 	file.setWriteFileName("playerDeck.txt");
 	file.openWrite();
@@ -156,6 +201,7 @@ void model::saveGame()
 	}
 	file.closeWrite();
 
+	//===================================================================================
 	// save infection deck
 	file.setWriteFileName("infectionDeck.txt");
 	file.openWrite();
@@ -174,5 +220,105 @@ void model::saveGame()
 		file.writeLine(Pdeck->getCard(counter).getCity());
 	}
 	file.closeWrite();
+
+	//===================================================================================
+	// save board
+	file.setWriteFileName("board.txt");
+	file.openWrite();
+	file.writeLine(Pboard->getInfectRate());
+	file.writeLine(Pboard->getOutbreakCount());
+
+	// not getting right number
+	int myCityNum = Pboard->getNumCities();			// ! not getting correct number
+	myCityNum = 48;
+	file.writeLine(myCityNum);
+	file.closeWrite();
+
+
+	//===================================================================================
+	// will use the myCityNum from above
+	file.setWriteFileName("cities.txt");
+	file.openWrite();
+	
+	for(int counter = 0; counter < myCityNum; counter++)
+	{
+		file.writeLine(Pboard->getCity(counter)->getVCount());
+		file.writeLine(Pboard->getCity(counter)->isCured());
+	}
+	file.closeWrite();
+
+	//===================================================================================
+	//Save player information
+	file.setWriteFileName("numberOfPlayers.txt");
+	file.openWrite();
+	file.writeLine(numPlayers);
+	file.closeWrite();
+
+	//===================================================================================
+	// save player 1-2
+	if(numPlayers >= 2)
+	{
+		file.setWriteFileName("player1.txt");
+		file.openWrite();
+		file.writeLine(P1->getLocation());
+		file.writeLine(P1->getName());
+		file.writeLine(P1->getRole());
+		file.writeLine(P1->getPID());
+		file.writeLine(P1->getCID());
+		file.writeLine(P1->getRID());
+		file.closeWrite();
+		
+		file.setWriteFileName("player2.txt");
+		file.openWrite();
+		file.writeLine(P1->getLocation());
+		file.writeLine(P1->getName());
+		file.writeLine(P1->getRole());
+		file.writeLine(P1->getPID());
+		file.writeLine(P1->getCID());
+		file.writeLine(P1->getRID());
+		file.closeWrite();
+	}
+
+	//===================================================================================
+	// save player 3
+	if(numPlayers >= 3)
+	{
+		file.setWriteFileName("player3.txt");
+		file.openWrite();
+		file.writeLine(P1->getLocation());
+		file.writeLine(P1->getName());
+		file.writeLine(P1->getRole());
+		file.writeLine(P1->getPID());
+		file.writeLine(P1->getCID());
+		file.writeLine(P1->getRID());
+		file.closeWrite();
+	}
+	else
+	{
+		file.setWriteFileName("player3.txt");
+		file.openWrite();
+		file.closeWrite();
+	}
+
+	//===================================================================================
+	// save player 4
+	if(numPlayers >= 4)
+	{
+		file.setWriteFileName("player4.txt");
+		file.openWrite();
+		file.writeLine(P1->getLocation());
+		file.writeLine(P1->getName());
+		file.writeLine(P1->getRole());
+		file.writeLine(P1->getPID());
+		file.writeLine(P1->getCID());
+		file.writeLine(P1->getRID());
+		file.closeWrite();
+	}
+	else
+	{
+		file.setWriteFileName("player4.txt");
+		file.openWrite();
+		file.closeWrite();
+	}
 }
 #endif // MODEL_H
