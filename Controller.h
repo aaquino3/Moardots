@@ -63,7 +63,7 @@ void controller::settingsMenu() {
 }
 
 void controller::loadMenu() {
-
+	Pmodel->loadGame();
 }
 
 void controller::mainGameMenu(int PID) {

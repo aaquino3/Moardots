@@ -1,6 +1,10 @@
 #ifndef MODEL_H
 #define MODEL_H
-
+//for testing only
+#include <iostream>
+#include <string>
+using namespace std;
+// end of testing
 
 #include "player.h"
 #include "deck.h"
@@ -46,6 +50,8 @@ public:
 
 	//save game
 	void saveGame();
+	//load game
+	void loadGame();
 };
 
 // DEFAULT CONSTRUCTOR
@@ -180,9 +186,26 @@ void model::saveGame()
 		CID
 		RID
 	*/
+	
+	//===================================================================================
+	// file names
+
+	string playerdDeckFileName = "playerDeck.txt";
+	string infectionDeckFileName = "infectionDeck.txt";
+	string boardFileName = "board.txt";
+	string citiesFileName = "cities.txt";
+	string numberOfPlayersFileName = "numberOfPlayers.txt";
+	string player1FileName = "player1.txt";
+	string player2FileName = "player2.txt";
+	string player3FileName = "player3.txt";
+	string player4FileName = "player4.txt";
 	//===================================================================================
 	// save Player Deck
-	file.setWriteFileName("playerDeck.txt");
+
+
+
+
+	file.setWriteFileName(playerdDeckFileName);
 	file.openWrite();
 	
 	int numberOfPlayerCards = Pdeck->getDeckSize();
@@ -203,7 +226,7 @@ void model::saveGame()
 
 	//===================================================================================
 	// save infection deck
-	file.setWriteFileName("infectionDeck.txt");
+	file.setWriteFileName(infectionDeckFileName);
 	file.openWrite();
 	int numberOfInfectionCards = Ideck->getDeckSize();
 
@@ -223,7 +246,7 @@ void model::saveGame()
 
 	//===================================================================================
 	// save board
-	file.setWriteFileName("board.txt");
+	file.setWriteFileName(boardFileName);
 	file.openWrite();
 	file.writeLine(Pboard->getInfectRate());
 	file.writeLine(Pboard->getOutbreakCount());
@@ -236,20 +259,24 @@ void model::saveGame()
 
 
 	//===================================================================================
+	// save cities
 	// will use the myCityNum from above
-	file.setWriteFileName("cities.txt");
+	file.setWriteFileName(citiesFileName);
 	file.openWrite();
 	
 	for(int counter = 0; counter < myCityNum; counter++)
 	{
 		file.writeLine(Pboard->getCity(counter)->getVCount());
-		file.writeLine(Pboard->getCity(counter)->isCured());
+		if(Pboard->getCity(counter)->isCured() == true)
+			file.writeLine(1);
+		else
+			file.writeLine(0);
 	}
 	file.closeWrite();
 
 	//===================================================================================
 	//Save player information
-	file.setWriteFileName("numberOfPlayers.txt");
+	file.setWriteFileName(numberOfPlayersFileName);
 	file.openWrite();
 	file.writeLine(numPlayers);
 	file.closeWrite();
@@ -258,7 +285,7 @@ void model::saveGame()
 	// save player 1-2
 	if(numPlayers >= 2)
 	{
-		file.setWriteFileName("player1.txt");
+		file.setWriteFileName(player1FileName);
 		file.openWrite();
 		file.writeLine(P1->getLocation());
 		file.writeLine(P1->getName());
@@ -268,7 +295,7 @@ void model::saveGame()
 		file.writeLine(P1->getRID());
 		file.closeWrite();
 		
-		file.setWriteFileName("player2.txt");
+		file.setWriteFileName(player2FileName);
 		file.openWrite();
 		file.writeLine(P2->getLocation());
 		file.writeLine(P2->getName());
@@ -283,7 +310,7 @@ void model::saveGame()
 	// save player 3
 	if(numPlayers >= 3)
 	{
-		file.setWriteFileName("player3.txt");
+		file.setWriteFileName(player3FileName);
 		file.openWrite();
 		file.writeLine(P3->getLocation());
 		file.writeLine(P3->getName());
@@ -295,7 +322,7 @@ void model::saveGame()
 	}
 	else
 	{
-		file.setWriteFileName("player3.txt");
+		file.setWriteFileName(player3FileName);
 		file.openWrite();
 		file.closeWrite();
 	}
@@ -304,7 +331,7 @@ void model::saveGame()
 	// save player 4
 	if(numPlayers >= 4)
 	{
-		file.setWriteFileName("player4.txt");
+		file.setWriteFileName(player4FileName);
 		file.openWrite();
 		file.writeLine(P4->getLocation());
 		file.writeLine(P4->getName());
@@ -316,9 +343,41 @@ void model::saveGame()
 	}
 	else
 	{
-		file.setWriteFileName("player4.txt");
+		file.setWriteFileName(player4FileName);
 		file.openWrite();
 		file.closeWrite();
 	}
+}
+
+void model::loadGame()
+{
+	File file;
+	//==================================================================================
+	string playerdDeckFileName = "playerDeck.txt";
+	string infectionDeckFileName = "infectionDeck.txt";
+	string boardFileName = "board.txt";
+	string citiesFileName = "cities.txt";
+	string numberOfPlayersFileName = "numberOfPlayers.txt";
+	string player1FileName = "player1.txt";
+	string player2FileName = "player2.txt";
+	string player3FileName = "player3.txt";
+	string player4FileName = "player4.txt";
+	//===================================================================================
+	string temp;
+	
+	file.setReadFileName(playerdDeckFileName);
+	file.openRead();
+	while(true)
+	{
+		if(file.readLine() == 0)
+			cout << file.getLine() << endl;
+		else
+			break;
+		if(file.readLine() == 0)
+			cout << file.getLine() << endl;
+		else
+			break;
+	}
+	file.closeRead();
 }
 #endif // MODEL_H
