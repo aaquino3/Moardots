@@ -63,7 +63,7 @@ void controller::settingsMenu() {
 }
 
 void controller::loadMenu() {
-
+	Pmodel->loadGame();
 }
 
 void controller::mainGameMenu(int PID) {
@@ -76,7 +76,9 @@ void controller::mainGameMenu(int PID) {
 		break;
 	case 3: actionMenu(Pview->showActionMenu());
 		break;
-	case 4: exitMenu();
+	case 4: Pmodel->saveGame();
+		break;
+	case 5: exitMenu();
 		break;
 	default: goto thisPlace;
 	}
