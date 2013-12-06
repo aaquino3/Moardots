@@ -86,15 +86,16 @@ int view::showExitMenu() {
 
 
 int view::numPlayer() {
-	int nPlay = 0;
-	while( nPlay == 0 ) {
-		cout << "How many players will there be?" << endl;
-		cin >> nPlay;
-		if(nPlay > 4 || nPlay < 2) {
-			nPlay = 0;
-		}
-		system("CLS");
+	int nPlay;
+
+	while (cout << "Please enter the amount of players:\n" && (!(cin >>nPlay) || nPlay > 4 || nPlay < 2))
+	{
+		cin.clear();
+		string line;
+		getline(cin,line);
+		cout << "I am sorry, please enter number of players" << endl;
 	}
+
 	return nPlay;
 }
 
