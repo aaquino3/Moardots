@@ -1,3 +1,0 @@
-I tried to add images associated with the SDL and the dynamic-link library for SDL, but the GitHub Clone kept saying it 
-could not sync the branch...I've run into this problem before with GitHub and have become very frustrated that there is
-not an easier way to revert back to the previous sync. 
