@@ -1,214 +1,1022 @@
-91ee863 - aquino.ardee@gmail.com, 10 seconds ago : moving test cases to a folder and exporting my log to /logs directory
- 8 files changed, 211 insertions(+)
-
-c6b2f8b - aquino.ardee@gmail.com, 2 days ago : file change to vs 2012
- 3 files changed, 0 insertions(+), 0 deletions(-)
-
-f3cc626 - aquino.ardee@gmail.com, 2 days ago : uploaded test case and updated deck.h srand(time(0)) warning to srand(unsigned(time(0)))
- 79 files changed, 27 insertions(+), 76 deletions(-)
-
-94575bf - aquino.ardee@gmail.com, 3 weeks ago : checking main
- 3 files changed, 5 insertions(+), 4 deletions(-)
-
-5e7ffdc - aquino.ardee@gmail.com, 3 weeks ago : restored more files such as roster.txt, stubs, stories
- 17 files changed, 322 insertions(+)
-
-2ec8b22 - aquino.ardee@gmail.com, 3 weeks ago : Restoring All Files...
- 102 files changed, 136 insertions(+), 63225 deletions(-)
-
-12860aa - aquino.ardee@gmail.com, 3 weeks ago : delete files
- 4 files changed, 1006 deletions(-)
-
-7f2a40c - aquino.ardee@gmail.com, 4 weeks ago : testing ssh
- 1 file changed, 1 insertion(+)
-
-ab9bed0 - aquino.ardee@gmail.com, 5 weeks ago : bleh
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-b5c2b2e - aquino.ardee@gmail.com, 5 weeks ago : checking QT ssh
- 1 file changed, 1 deletion(-)
-
-abf1aeb - aquino.ardee@gmail.com, 5 weeks ago : testing qt push
- 1 file changed, 1 insertion(+)
-
-ac86c70 - aquino.ardee@gmail.com, 5 weeks ago : reorganizing git to work with QT
- 66 files changed, 2119 insertions(+), 1862 deletions(-)
-
-fb151ec - aquino.ardee@gmail.com, 5 weeks ago : changing folders, I moved the wrong folder
- 68 files changed, 1868 insertions(+), 1868 deletions(-)
-
-9921202 - aquino.ardee@gmail.com, 5 weeks ago : rename folder
- 155 files changed, 3296 insertions(+), 3296 deletions(-)
-
-80d8c90 - aquino.ardee@gmail.com, 5 weeks ago : moving folders
- 160 files changed, 3331 insertions(+), 3317 deletions(-)
-
-12b758d - aquino.ardee@gmail.com, 6 weeks ago : deleted pandemic pdf, didnt need
- 1 file changed, 306157 deletions(-)
-
-b1094b1 - aquino.ardee@gmail.com, 6 weeks ago : deleting dice
- 6 files changed, 140 insertions(+), 34 deletions(-)
-
-3689d9d - aquino.ardee@gmail.com, 7 weeks ago : fixes to player.cpp
- 4 files changed, 10 insertions(+), 41 deletions(-)
-
-96a3881 - aquino.ardee@gmail.com, 7 weeks ago : added player class and player header
- 2 files changed, 57 insertions(+)
-
-a0f8e8f - aquino.ardee@gmail.com, 7 weeks ago : fixing main
- 2 files changed, 4 insertions(+), 5 deletions(-)
-
-f402891 - aquino.ardee@gmail.com, 7 weeks ago : updating main error in main saying Deck.h was not located but there was two mains...fixed
- 3 files changed, 24 insertions(+), 46 deletions(-)
-
-9a04c49 - aquino.ardee@gmail.com, 8 weeks ago : changes to headers
- 1 file changed, 3 insertions(+)
-
-12cd0f0 - aquino.ardee@gmail.com, 8 weeks ago : Adding my story
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-809ec52 - aquino.ardee@gmail.com, 8 weeks ago : fixed headers
- 3 files changed, 2 insertions(+), 17 deletions(-)
-
-2c14d65 - aquino.ardee@gmail.com, 8 weeks ago : fixed errors on driverProgram.cpp and the header
- 2 files changed, 6 insertions(+), 6 deletions(-)
-
-b17217a - aquino.ardee@gmail.com, 8 weeks ago : Eclipse files
- 3 files changed, 144 insertions(+)
-
-3c4e555 - aquino.ardee@gmail.com, 8 weeks ago : changing main
- 1 file changed, 1 insertion(+)
-
-9f614c0 - aquino.ardee@gmail.com, 8 weeks ago : adding pdf....dont know if we really need it. its the pdf from blackboard
- 2 files changed, 306157 insertions(+), 2 deletions(-)
-
-433151f - aquino.ardee@gmail.com, 8 weeks ago : testing eclipse
- 1 file changed, 1 insertion(+)
-
-3d80007 - aquino.ardee@gmail.com, 8 weeks ago : eclipse test
- 1 file changed, 3 deletions(-)
-
-12eaeb6 - aquino.ardee@gmail.com, 8 weeks ago : testing eclipse
- 1 file changed, 1 insertion(+)
-
-20d9884 - aquino.ardee@gmail.com, 8 weeks ago : testing eclipse
- 1 file changed, 1 deletion(-)
-
-9b22049 - aquino.ardee@gmail.com, 8 weeks ago : deleting lines, testing eclipse
- 1 file changed, 1 insertion(+), 4 deletions(-)
-
-0e08ffc - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes
- 7 files changed, 297 insertions(+), 446 deletions(-)
-
-d32d2d6 - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-7eed46e - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : deleting stuff out of main
- 2 files changed, 6 deletions(-)
-
-17470a6 - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode settings
- 2 files changed, 5 insertions(+), 3 deletions(-)
-
-a6b1fcf - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-90c86a9 - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files as well as adding user Stories folder
- 3 files changed, 11 insertions(+)
-
-d1bef4e - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'
-a5113ca - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode file
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-71c2adf - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'
-b71cd9c - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-0e99e4c - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header
- 8 files changed, 34 insertions(+), 9 deletions(-)
-
-38252ee - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
-d56c8cd - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-eda801e - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings
- 1 file changed, 2 insertions(+), 2 deletions(-)
-
-af588a7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster
- 2 files changed, 1 deletion(-)
-
-2b8f0bb - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 3 files changed, 3 insertions(+), 12 deletions(-)
-
-20ffc6f - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
-761655c - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode file
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-a13bfe7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode and changes
- 3 files changed, 4 insertions(+), 5 deletions(-)
-
-0d31923 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
-c2adf34 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-ce6e4e4 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-e589c10 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-afe7103 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-f7d77e7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : test
- 2 files changed, 3 insertions(+)
-
-b06fb69 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing main
- 2 files changed, 1 insertion(+), 10 deletions(-)
-
-8888c0e - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
-489f324 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-5b9dd1c - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-b6cb3a2 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
-3048886 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode update
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-bb47a48 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings
- 2 files changed, 4 insertions(+)
-
-82327de - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : update main.cpp
- 2 files changed, 2 deletions(-)
-
-d8ffec7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding file.txt and changing Xcode files
- 4 files changed, 4 insertions(+)
-
-3f21f4c - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding a line
- 2 files changed, 1 insertion(+)
-
-f1d7acf - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : just xcode update stuff
- 1 file changed, 0 insertions(+), 0 deletions(-)
-
-39231de - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
-1a5b75b - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode stuff
- 2 files changed, 1 insertion(+), 1 deletion(-)
-
-22b2656 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : testing just changing the cpp a little bit
- 2 files changed, 4 insertions(+), 1 deletion(-)
-
-6921788 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directories
- 16 files changed, 404 insertions(+), 488 deletions(-)
-
-9181439 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding roster.txt
- 1 file changed, 1 insertion(+)
-
-308e2b1 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directory
- 1 file changed, 1 deletion(-)
-
-58a3847 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster adding ardee aquino
- 3 files changed, 5 insertions(+), 2 deletions(-)
-
-dfbc7e8 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Initial Commit
- 7 files changed, 485 insertions(+)
+Name: aquino.ardee@gmail.com, 65 minutes ago : updating my log 
+Commited Files/Updated Files:
+logs/ardee.log
+
+Name: aquino.ardee@gmail.com, 65 minutes ago : moving test cases to a folder and exporting my log to /logs directory 
+Commited Files/Updated Files:
+.DS_Store
+Case 03.docx
+MovePlayer Test Case.pdf
+Shuffle Test Case.pdf
+Test Cases/Case 03.docx
+Test Cases/MovePlayer Test Case.pdf
+Test Cases/Shuffle Test Case.pdf
+logs/ardee.log
+
+Name: aquino.ardee@gmail.com, 2 days ago : file change to vs 2012 
+Commited Files/Updated Files:
+VS Project Folder/PANDEMIC.opensdf
+VS Project Folder/PANDEMIC.sdf
+VS Project Folder/PANDEMIC.v11.suo
+
+Name: aquino.ardee@gmail.com, 2 days ago : uploaded test case and updated deck.h srand(time(0)) warning to srand(unsigned(time(0))) 
+Commited Files/Updated Files:
+.DS_Store
+Shuffle Test Case.pdf
+VS Project Folder/Debug/PANDEMIC.exe
+VS Project Folder/Debug/PANDEMIC.ilk
+VS Project Folder/Debug/PANDEMIC.pdb
+VS Project Folder/PANDEMIC.opensdf
+VS Project Folder/PANDEMIC.sdf
+VS Project Folder/PANDEMIC.v11.suo
+VS Project Folder/PANDEMIC/Debug/CL.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/CL.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/Driver.obj
+VS Project Folder/PANDEMIC/Debug/PANDEMIC.Build.CppClean.log
+VS Project Folder/PANDEMIC/Debug/PANDEMIC.exe.intermediate.manifest
+VS Project Folder/PANDEMIC/Debug/PANDEMIC.lastbuildstate
+VS Project Folder/PANDEMIC/Debug/PANDEMIC.log
+VS Project Folder/PANDEMIC/Debug/PANDEMIC.vcxprojResolveAssemblyReference.cache
+VS Project Folder/PANDEMIC/Debug/PANDEMIC.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/cl.command.1.tlog
+VS Project Folder/PANDEMIC/Debug/controller.obj
+VS Project Folder/PANDEMIC/Debug/link-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.1464-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.1464-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.1464-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.1464-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.1464.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.1464.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2428-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2428-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2428-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2428-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2428.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2428.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2692-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2692-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2692-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2692-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2692.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.2692.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3324-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3324-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3324-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3324-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3324.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3324.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3872-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3872-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3872-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3872-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3872.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3872.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3900-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3900-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3900-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3900-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3900.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.3900.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.852-cvtres.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.852-cvtres.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.852-rc.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.852-rc.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.852.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.852.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.command.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/link.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/model.obj
+VS Project Folder/PANDEMIC/Debug/mt.command.1.tlog
+VS Project Folder/PANDEMIC/Debug/mt.read.1.tlog
+VS Project Folder/PANDEMIC/Debug/mt.write.1.tlog
+VS Project Folder/PANDEMIC/Debug/vc100.idb
+VS Project Folder/PANDEMIC/Debug/vc100.pdb
+VS Project Folder/PANDEMIC/Debug/vc110.idb
+VS Project Folder/PANDEMIC/Debug/vc110.pdb
+VS Project Folder/PANDEMIC/Debug/view.obj
+VS Project Folder/PANDEMIC/PANDEMIC.vcxproj
+VS Project Folder/PANDEMIC/deck.h
+
+Name: aquino.ardee@gmail.com, 3 weeks ago : checking main 
+Commited Files/Updated Files:
+Pandemic64.png
+Pandemic80.png
+ProgramStubs.cpp
+
+Name: aquino.ardee@gmail.com, 3 weeks ago : restored more files such as roster.txt, stubs, stories 
+Commited Files/Updated Files:
+Pandemic Stories/My Game Story - Peter Simms
+Pandemic Stories/Pandemic Story - Spencer Dyer.doc
+Pandemic Stories/Pandemic Story - Spencer Dyer.pdf
+Pandemic Stories/Pandemic Story Edgar_Reyes.rtf
+Pandemic Stories/Pandemic Story VasiliyRodin.docx
+Pandemic Stories/PandemicStory_ArdeeAquino.doc
+ProgramStubs.cpp
+ProgramStubs.txt
+Project Needed Classes.rtf
+UML/SimpleUML.zargo
+UML/SimpleUML.zargo~
+UML/UML.png
+UML/UML.zargo
+UML/UML.zargo~
+countTest.txt
+roleCards.txt
+roster.txt
+
+Name: aquino.ardee@gmail.com, 3 weeks ago : Restoring All Files... 
+Commited Files/Updated Files:
+.DS_Store
+.cproject
+.settings/org.eclipse.cdt.managedbuilder.core.prefs
+Pandemic.desktop
+Pandemic.pro
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/Pandemic.xcscheme
+Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/xcschememanagement.plist
+PandemicSource_CPP/.DS_Store
+PandemicSource_CPP/.cproject
+PandemicSource_CPP/.gitignore
+PandemicSource_CPP/.project
+PandemicSource_CPP/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+PandemicSource_CPP/Card.cpp
+PandemicSource_CPP/Card.h
+PandemicSource_CPP/Cards.rtf
+PandemicSource_CPP/City.cpp
+PandemicSource_CPP/City.h
+PandemicSource_CPP/Controller.cpp
+PandemicSource_CPP/Controller.h
+PandemicSource_CPP/Deck.cpp
+PandemicSource_CPP/Deck.h
+PandemicSource_CPP/File.cpp
+PandemicSource_CPP/File.h
+PandemicSource_CPP/Hand.cpp
+PandemicSource_CPP/Hand.h
+PandemicSource_CPP/Map.cpp
+PandemicSource_CPP/Map.h
+PandemicSource_CPP/Model.cpp
+PandemicSource_CPP/Model.h
+PandemicSource_CPP/Pandemic Stories/My Game Story - Peter Simms
+PandemicSource_CPP/Pandemic Stories/Pandemic Story - Spencer Dyer.doc
+PandemicSource_CPP/Pandemic Stories/Pandemic Story - Spencer Dyer.pdf
+PandemicSource_CPP/Pandemic Stories/Pandemic Story Edgar_Reyes.rtf
+PandemicSource_CPP/Pandemic Stories/Pandemic Story VasiliyRodin.docx
+PandemicSource_CPP/Pandemic Stories/PandemicStory_ArdeeAquino.doc
+PandemicSource_CPP/Pandemic.1
+PandemicSource_CPP/Player.cpp
+PandemicSource_CPP/Player.h
+PandemicSource_CPP/ProgramStubs.cpp
+PandemicSource_CPP/ProgramStubs.txt
+PandemicSource_CPP/Project Needed Classes.rtf
+PandemicSource_CPP/QT_PandemicProject/README.txt
+PandemicSource_CPP/UML/SimpleUML.zargo
+PandemicSource_CPP/UML/SimpleUML.zargo~
+PandemicSource_CPP/UML/UML.png
+PandemicSource_CPP/UML/UML.zargo
+PandemicSource_CPP/UML/UML.zargo~
+PandemicSource_CPP/View.cpp
+PandemicSource_CPP/View.h
+PandemicSource_CPP/countTest.txt
+PandemicSource_CPP/main.cpp
+PandemicSource_CPP/roleCards.txt
+PandemicSource_CPP/roster.txt
+Pandemic_harmattan.desktop
+QTPandemic/Pandemic.pro.user.1ac63a0
+board.qrc
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/Makefile
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/Makefile.Debug
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/Makefile.Release
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Card.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/City.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Controller.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Deck.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/File.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Hand.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Map.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Model.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/Player.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/View.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/debug/main.obj
+build-Pandemic-Desktop_Qt_5_1_1_MSVC2012_OpenGL_64bit-Debug/vc100.pdb
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/Makefile
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/Makefile.Debug
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/Makefile.Release
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Card.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/City.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Controller.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Deck.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/File.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Hand.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Map.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Model.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Pandemic.exe
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/Player.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/View.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/main.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/mainwindow.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/moc_mainwindow.cpp
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/moc_mainwindow.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/qrc_board.cpp
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/debug/qrc_board.o
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/object_script.Pandemic.Debug
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/object_script.Pandemic.Release
+build-Pandemic-Desktop_Qt_5_1_1_MinGW_32bit-Debug/ui_mainwindow.h
+main.cpp
+mainwindow.cpp
+mainwindow.h
+mainwindow.ui
+
+Name: aquino.ardee@gmail.com, 3 weeks ago : delete files 
+Commited Files/Updated Files:
+.DS_Store
+Pandemic.pro.user
+Pandemic.pro.user.1.3
+Pandemic.pro.user.1ac63a0
+
+Name: aquino.ardee@gmail.com, 4 weeks ago : testing ssh 
+Commited Files/Updated Files:
+main.cpp
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : bleh 
+Commited Files/Updated Files:
+.DS_Store
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : checking QT ssh 
+Commited Files/Updated Files:
+main.cpp
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : testing qt push 
+Commited Files/Updated Files:
+main.cpp
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : reorganizing git to work with QT 
+Commited Files/Updated Files:
+.DS_Store
+Card.cpp
+Card.h
+City.cpp
+City.h
+Controller.cpp
+Controller.h
+Deck.cpp
+Deck.h
+File.cpp
+File.h
+Hand.cpp
+Hand.h
+Map.cpp
+Map.h
+Model.cpp
+Model.h
+Pandemic.desktop
+Pandemic.pro
+Pandemic.pro.user
+Pandemic64.png
+Pandemic80.png
+Pandemic_harmattan.desktop
+Player.cpp
+Player.h
+QTPandemic/Card.cpp
+QTPandemic/Card.h
+QTPandemic/City.cpp
+QTPandemic/City.h
+QTPandemic/Controller.cpp
+QTPandemic/Controller.h
+QTPandemic/Deck.cpp
+QTPandemic/Deck.h
+QTPandemic/File.cpp
+QTPandemic/File.h
+QTPandemic/Hand.cpp
+QTPandemic/Hand.h
+QTPandemic/Map.cpp
+QTPandemic/Map.h
+QTPandemic/Model.cpp
+QTPandemic/Model.h
+QTPandemic/Pandemic.desktop
+QTPandemic/Pandemic.pro
+QTPandemic/Pandemic.pro.user
+QTPandemic/Pandemic.pro.user.1ac63a0
+QTPandemic/Pandemic64.png
+QTPandemic/Pandemic80.png
+QTPandemic/Pandemic_harmattan.desktop
+QTPandemic/Player.cpp
+QTPandemic/Player.h
+QTPandemic/View.cpp
+QTPandemic/View.h
+QTPandemic/board.jpg
+QTPandemic/board.qrc
+QTPandemic/main.cpp
+QTPandemic/mainwindow.cpp
+QTPandemic/mainwindow.h
+QTPandemic/mainwindow.ui
+View.cpp
+View.h
+board.jpg
+board.qrc
+main.cpp
+mainwindow.cpp
+mainwindow.h
+mainwindow.ui
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : changing folders, I moved the wrong folder 
+Commited Files/Updated Files:
+.DS_Store
+PandemicSource_CPP/.DS_Store
+PandemicSource_CPP/Pandemic/Card.cpp
+PandemicSource_CPP/Pandemic/Card.h
+PandemicSource_CPP/Pandemic/City.cpp
+PandemicSource_CPP/Pandemic/City.h
+PandemicSource_CPP/Pandemic/Controller.cpp
+PandemicSource_CPP/Pandemic/Controller.h
+PandemicSource_CPP/Pandemic/Deck.cpp
+PandemicSource_CPP/Pandemic/Deck.h
+PandemicSource_CPP/Pandemic/File.cpp
+PandemicSource_CPP/Pandemic/File.h
+PandemicSource_CPP/Pandemic/Hand.cpp
+PandemicSource_CPP/Pandemic/Hand.h
+PandemicSource_CPP/Pandemic/Map.cpp
+PandemicSource_CPP/Pandemic/Map.h
+PandemicSource_CPP/Pandemic/Model.cpp
+PandemicSource_CPP/Pandemic/Model.h
+PandemicSource_CPP/Pandemic/Pandemic.desktop
+PandemicSource_CPP/Pandemic/Pandemic.pro
+PandemicSource_CPP/Pandemic/Pandemic.pro.user
+PandemicSource_CPP/Pandemic/Pandemic64.png
+PandemicSource_CPP/Pandemic/Pandemic80.png
+PandemicSource_CPP/Pandemic/Pandemic_harmattan.desktop
+PandemicSource_CPP/Pandemic/Player.cpp
+PandemicSource_CPP/Pandemic/Player.h
+PandemicSource_CPP/Pandemic/View.cpp
+PandemicSource_CPP/Pandemic/View.h
+PandemicSource_CPP/Pandemic/board.jpg
+PandemicSource_CPP/Pandemic/board.qrc
+PandemicSource_CPP/Pandemic/main.cpp
+PandemicSource_CPP/Pandemic/mainwindow.cpp
+PandemicSource_CPP/Pandemic/mainwindow.h
+PandemicSource_CPP/Pandemic/mainwindow.ui
+PandemicSource_CPP/QT_PandemicProject/README.txt
+QTPandemic/Card.cpp
+QTPandemic/Card.h
+QTPandemic/City.cpp
+QTPandemic/City.h
+QTPandemic/Controller.cpp
+QTPandemic/Controller.h
+QTPandemic/Deck.cpp
+QTPandemic/Deck.h
+QTPandemic/File.cpp
+QTPandemic/File.h
+QTPandemic/Hand.cpp
+QTPandemic/Hand.h
+QTPandemic/Map.cpp
+QTPandemic/Map.h
+QTPandemic/Model.cpp
+QTPandemic/Model.h
+QTPandemic/Pandemic.desktop
+QTPandemic/Pandemic.pro
+QTPandemic/Pandemic.pro.user
+QTPandemic/Pandemic64.png
+QTPandemic/Pandemic80.png
+QTPandemic/Pandemic_harmattan.desktop
+QTPandemic/Player.cpp
+QTPandemic/Player.h
+QTPandemic/View.cpp
+QTPandemic/View.h
+QTPandemic/board.jpg
+QTPandemic/board.qrc
+QTPandemic/main.cpp
+QTPandemic/mainwindow.cpp
+QTPandemic/mainwindow.h
+QTPandemic/mainwindow.ui
+QT_PandemicProject/README.txt
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : rename folder 
+Commited Files/Updated Files:
+.DS_Store
+Pandemic Source/.DS_Store
+Pandemic Source/.cproject
+Pandemic Source/.gitignore
+Pandemic Source/.project
+Pandemic Source/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+Pandemic Source/Card.cpp
+Pandemic Source/Card.h
+Pandemic Source/Cards.rtf
+Pandemic Source/City.cpp
+Pandemic Source/City.h
+Pandemic Source/Controller.cpp
+Pandemic Source/Controller.h
+Pandemic Source/Deck.cpp
+Pandemic Source/Deck.h
+Pandemic Source/File.cpp
+Pandemic Source/File.h
+Pandemic Source/Hand.cpp
+Pandemic Source/Hand.h
+Pandemic Source/Map.cpp
+Pandemic Source/Map.h
+Pandemic Source/Model.cpp
+Pandemic Source/Model.h
+Pandemic Source/Pandemic Stories/My Game Story - Peter Simms
+Pandemic Source/Pandemic Stories/Pandemic Story - Spencer Dyer.doc
+Pandemic Source/Pandemic Stories/Pandemic Story - Spencer Dyer.pdf
+Pandemic Source/Pandemic Stories/Pandemic Story Edgar_Reyes.rtf
+Pandemic Source/Pandemic Stories/Pandemic Story VasiliyRodin.docx
+Pandemic Source/Pandemic Stories/PandemicStory_ArdeeAquino.doc
+Pandemic Source/Pandemic.1
+Pandemic Source/Pandemic/Card.cpp
+Pandemic Source/Pandemic/Card.h
+Pandemic Source/Pandemic/City.cpp
+Pandemic Source/Pandemic/City.h
+Pandemic Source/Pandemic/Controller.cpp
+Pandemic Source/Pandemic/Controller.h
+Pandemic Source/Pandemic/Deck.cpp
+Pandemic Source/Pandemic/Deck.h
+Pandemic Source/Pandemic/File.cpp
+Pandemic Source/Pandemic/File.h
+Pandemic Source/Pandemic/Hand.cpp
+Pandemic Source/Pandemic/Hand.h
+Pandemic Source/Pandemic/Map.cpp
+Pandemic Source/Pandemic/Map.h
+Pandemic Source/Pandemic/Model.cpp
+Pandemic Source/Pandemic/Model.h
+Pandemic Source/Pandemic/Pandemic.desktop
+Pandemic Source/Pandemic/Pandemic.pro
+Pandemic Source/Pandemic/Pandemic.pro.user
+Pandemic Source/Pandemic/Pandemic64.png
+Pandemic Source/Pandemic/Pandemic80.png
+Pandemic Source/Pandemic/Pandemic_harmattan.desktop
+Pandemic Source/Pandemic/Player.cpp
+Pandemic Source/Pandemic/Player.h
+Pandemic Source/Pandemic/View.cpp
+Pandemic Source/Pandemic/View.h
+Pandemic Source/Pandemic/board.jpg
+Pandemic Source/Pandemic/board.qrc
+Pandemic Source/Pandemic/main.cpp
+Pandemic Source/Pandemic/mainwindow.cpp
+Pandemic Source/Pandemic/mainwindow.h
+Pandemic Source/Pandemic/mainwindow.ui
+Pandemic Source/Player.cpp
+Pandemic Source/Player.h
+Pandemic Source/ProgramStubs.cpp
+Pandemic Source/ProgramStubs.txt
+Pandemic Source/Project Needed Classes.rtf
+Pandemic Source/UML/SimpleUML.zargo
+Pandemic Source/UML/SimpleUML.zargo~
+Pandemic Source/UML/UML.png
+Pandemic Source/UML/UML.zargo
+Pandemic Source/UML/UML.zargo~
+Pandemic Source/View.cpp
+Pandemic Source/View.h
+Pandemic Source/countTest.txt
+Pandemic Source/main.cpp
+Pandemic Source/roleCards.txt
+Pandemic Source/roster.txt
+PandemicSource_CPP/.DS_Store
+PandemicSource_CPP/.cproject
+PandemicSource_CPP/.gitignore
+PandemicSource_CPP/.project
+PandemicSource_CPP/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+PandemicSource_CPP/Card.cpp
+PandemicSource_CPP/Card.h
+PandemicSource_CPP/Cards.rtf
+PandemicSource_CPP/City.cpp
+PandemicSource_CPP/City.h
+PandemicSource_CPP/Controller.cpp
+PandemicSource_CPP/Controller.h
+PandemicSource_CPP/Deck.cpp
+PandemicSource_CPP/Deck.h
+PandemicSource_CPP/File.cpp
+PandemicSource_CPP/File.h
+PandemicSource_CPP/Hand.cpp
+PandemicSource_CPP/Hand.h
+PandemicSource_CPP/Map.cpp
+PandemicSource_CPP/Map.h
+PandemicSource_CPP/Model.cpp
+PandemicSource_CPP/Model.h
+PandemicSource_CPP/Pandemic Stories/My Game Story - Peter Simms
+PandemicSource_CPP/Pandemic Stories/Pandemic Story - Spencer Dyer.doc
+PandemicSource_CPP/Pandemic Stories/Pandemic Story - Spencer Dyer.pdf
+PandemicSource_CPP/Pandemic Stories/Pandemic Story Edgar_Reyes.rtf
+PandemicSource_CPP/Pandemic Stories/Pandemic Story VasiliyRodin.docx
+PandemicSource_CPP/Pandemic Stories/PandemicStory_ArdeeAquino.doc
+PandemicSource_CPP/Pandemic.1
+PandemicSource_CPP/Pandemic/Card.cpp
+PandemicSource_CPP/Pandemic/Card.h
+PandemicSource_CPP/Pandemic/City.cpp
+PandemicSource_CPP/Pandemic/City.h
+PandemicSource_CPP/Pandemic/Controller.cpp
+PandemicSource_CPP/Pandemic/Controller.h
+PandemicSource_CPP/Pandemic/Deck.cpp
+PandemicSource_CPP/Pandemic/Deck.h
+PandemicSource_CPP/Pandemic/File.cpp
+PandemicSource_CPP/Pandemic/File.h
+PandemicSource_CPP/Pandemic/Hand.cpp
+PandemicSource_CPP/Pandemic/Hand.h
+PandemicSource_CPP/Pandemic/Map.cpp
+PandemicSource_CPP/Pandemic/Map.h
+PandemicSource_CPP/Pandemic/Model.cpp
+PandemicSource_CPP/Pandemic/Model.h
+PandemicSource_CPP/Pandemic/Pandemic.desktop
+PandemicSource_CPP/Pandemic/Pandemic.pro
+PandemicSource_CPP/Pandemic/Pandemic.pro.user
+PandemicSource_CPP/Pandemic/Pandemic64.png
+PandemicSource_CPP/Pandemic/Pandemic80.png
+PandemicSource_CPP/Pandemic/Pandemic_harmattan.desktop
+PandemicSource_CPP/Pandemic/Player.cpp
+PandemicSource_CPP/Pandemic/Player.h
+PandemicSource_CPP/Pandemic/View.cpp
+PandemicSource_CPP/Pandemic/View.h
+PandemicSource_CPP/Pandemic/board.jpg
+PandemicSource_CPP/Pandemic/board.qrc
+PandemicSource_CPP/Pandemic/main.cpp
+PandemicSource_CPP/Pandemic/mainwindow.cpp
+PandemicSource_CPP/Pandemic/mainwindow.h
+PandemicSource_CPP/Pandemic/mainwindow.ui
+PandemicSource_CPP/Player.cpp
+PandemicSource_CPP/Player.h
+PandemicSource_CPP/ProgramStubs.cpp
+PandemicSource_CPP/ProgramStubs.txt
+PandemicSource_CPP/Project Needed Classes.rtf
+PandemicSource_CPP/UML/SimpleUML.zargo
+PandemicSource_CPP/UML/SimpleUML.zargo~
+PandemicSource_CPP/UML/UML.png
+PandemicSource_CPP/UML/UML.zargo
+PandemicSource_CPP/UML/UML.zargo~
+PandemicSource_CPP/View.cpp
+PandemicSource_CPP/View.h
+PandemicSource_CPP/countTest.txt
+PandemicSource_CPP/main.cpp
+PandemicSource_CPP/roleCards.txt
+PandemicSource_CPP/roster.txt
+
+Name: aquino.ardee@gmail.com, 5 weeks ago : moving folders 
+Commited Files/Updated Files:
+.DS_Store
+.cproject
+.gitignore
+.settings/org.eclipse.cdt.managedbuilder.core.prefs
+Pandemic Source/.DS_Store
+Pandemic Source/.cproject
+Pandemic Source/.gitignore
+Pandemic Source/.project
+Pandemic Source/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+Pandemic Source/Card.cpp
+Pandemic Source/Card.h
+Pandemic Source/Cards.rtf
+Pandemic Source/City.cpp
+Pandemic Source/City.h
+Pandemic Source/Controller.cpp
+Pandemic Source/Controller.h
+Pandemic Source/Deck.cpp
+Pandemic Source/Deck.h
+Pandemic Source/File.cpp
+Pandemic Source/File.h
+Pandemic Source/Hand.cpp
+Pandemic Source/Hand.h
+Pandemic Source/Map.cpp
+Pandemic Source/Map.h
+Pandemic Source/Model.cpp
+Pandemic Source/Model.h
+Pandemic Source/Pandemic Stories/My Game Story - Peter Simms
+Pandemic Source/Pandemic Stories/Pandemic Story - Spencer Dyer.doc
+Pandemic Source/Pandemic Stories/Pandemic Story - Spencer Dyer.pdf
+Pandemic Source/Pandemic Stories/Pandemic Story Edgar_Reyes.rtf
+Pandemic Source/Pandemic Stories/Pandemic Story VasiliyRodin.docx
+Pandemic Source/Pandemic Stories/PandemicStory_ArdeeAquino.doc
+Pandemic Source/Pandemic.1
+Pandemic Source/Pandemic/Card.cpp
+Pandemic Source/Pandemic/Card.h
+Pandemic Source/Pandemic/City.cpp
+Pandemic Source/Pandemic/City.h
+Pandemic Source/Pandemic/Controller.cpp
+Pandemic Source/Pandemic/Controller.h
+Pandemic Source/Pandemic/Deck.cpp
+Pandemic Source/Pandemic/Deck.h
+Pandemic Source/Pandemic/File.cpp
+Pandemic Source/Pandemic/File.h
+Pandemic Source/Pandemic/Hand.cpp
+Pandemic Source/Pandemic/Hand.h
+Pandemic Source/Pandemic/Map.cpp
+Pandemic Source/Pandemic/Map.h
+Pandemic Source/Pandemic/Model.cpp
+Pandemic Source/Pandemic/Model.h
+Pandemic Source/Pandemic/Pandemic.desktop
+Pandemic Source/Pandemic/Pandemic.pro
+Pandemic Source/Pandemic/Pandemic.pro.user
+Pandemic Source/Pandemic/Pandemic64.png
+Pandemic Source/Pandemic/Pandemic80.png
+Pandemic Source/Pandemic/Pandemic_harmattan.desktop
+Pandemic Source/Pandemic/Player.cpp
+Pandemic Source/Pandemic/Player.h
+Pandemic Source/Pandemic/View.cpp
+Pandemic Source/Pandemic/View.h
+Pandemic Source/Pandemic/board.jpg
+Pandemic Source/Pandemic/board.qrc
+Pandemic Source/Pandemic/main.cpp
+Pandemic Source/Pandemic/mainwindow.cpp
+Pandemic Source/Pandemic/mainwindow.h
+Pandemic Source/Pandemic/mainwindow.ui
+Pandemic Source/Player.cpp
+Pandemic Source/Player.h
+Pandemic Source/ProgramStubs.cpp
+Pandemic Source/ProgramStubs.txt
+Pandemic Source/Project Needed Classes.rtf
+Pandemic Source/UML/SimpleUML.zargo
+Pandemic Source/UML/SimpleUML.zargo~
+Pandemic Source/UML/UML.png
+Pandemic Source/UML/UML.zargo
+Pandemic Source/UML/UML.zargo~
+Pandemic Source/View.cpp
+Pandemic Source/View.h
+Pandemic Source/countTest.txt
+Pandemic Source/main.cpp
+Pandemic Source/roleCards.txt
+Pandemic Source/roster.txt
+Pandemic/.DS_Store
+Pandemic/.cproject
+Pandemic/.gitignore
+Pandemic/.project
+Pandemic/.settings/org.eclipse.cdt.managedbuilder.core.prefs
+Pandemic/Card.cpp
+Pandemic/Card.h
+Pandemic/Cards.rtf
+Pandemic/City.cpp
+Pandemic/City.h
+Pandemic/Controller.cpp
+Pandemic/Controller.h
+Pandemic/Deck.cpp
+Pandemic/Deck.h
+Pandemic/File.cpp
+Pandemic/File.h
+Pandemic/Hand.cpp
+Pandemic/Hand.h
+Pandemic/Map.cpp
+Pandemic/Map.h
+Pandemic/Model.cpp
+Pandemic/Model.h
+Pandemic/Pandemic Stories/My Game Story - Peter Simms
+Pandemic/Pandemic Stories/Pandemic Story - Spencer Dyer.doc
+Pandemic/Pandemic Stories/Pandemic Story - Spencer Dyer.pdf
+Pandemic/Pandemic Stories/Pandemic Story Edgar_Reyes.rtf
+Pandemic/Pandemic Stories/Pandemic Story VasiliyRodin.docx
+Pandemic/Pandemic Stories/PandemicStory_ArdeeAquino.doc
+Pandemic/Pandemic.1
+Pandemic/Pandemic/Card.cpp
+Pandemic/Pandemic/Card.h
+Pandemic/Pandemic/City.cpp
+Pandemic/Pandemic/City.h
+Pandemic/Pandemic/Controller.cpp
+Pandemic/Pandemic/Controller.h
+Pandemic/Pandemic/Deck.cpp
+Pandemic/Pandemic/Deck.h
+Pandemic/Pandemic/File.cpp
+Pandemic/Pandemic/File.h
+Pandemic/Pandemic/Hand.cpp
+Pandemic/Pandemic/Hand.h
+Pandemic/Pandemic/Map.cpp
+Pandemic/Pandemic/Map.h
+Pandemic/Pandemic/Model.cpp
+Pandemic/Pandemic/Model.h
+Pandemic/Pandemic/Pandemic.desktop
+Pandemic/Pandemic/Pandemic.pro
+Pandemic/Pandemic/Pandemic.pro.user
+Pandemic/Pandemic/Pandemic64.png
+Pandemic/Pandemic/Pandemic80.png
+Pandemic/Pandemic/Pandemic_harmattan.desktop
+Pandemic/Pandemic/Player.cpp
+Pandemic/Pandemic/Player.h
+Pandemic/Pandemic/View.cpp
+Pandemic/Pandemic/View.h
+Pandemic/Pandemic/board.jpg
+Pandemic/Pandemic/board.qrc
+Pandemic/Pandemic/main.cpp
+Pandemic/Pandemic/mainwindow.cpp
+Pandemic/Pandemic/mainwindow.h
+Pandemic/Pandemic/mainwindow.ui
+Pandemic/Player.cpp
+Pandemic/Player.h
+Pandemic/ProgramStubs.cpp
+Pandemic/ProgramStubs.txt
+Pandemic/Project Needed Classes.rtf
+Pandemic/QT_PandemicProject/README.txt
+Pandemic/UML/SimpleUML.zargo
+Pandemic/UML/SimpleUML.zargo~
+Pandemic/UML/UML.png
+Pandemic/UML/UML.zargo
+Pandemic/UML/UML.zargo~
+Pandemic/View.cpp
+Pandemic/View.h
+Pandemic/countTest.txt
+Pandemic/main.cpp
+Pandemic/roleCards.txt
+Pandemic/roster.txt
+QT_PandemicProject/README.txt
+
+Name: aquino.ardee@gmail.com, 6 weeks ago : deleted pandemic pdf, didnt need 
+Commited Files/Updated Files:
+Pandemic/Pandemic.pdf
+
+Name: aquino.ardee@gmail.com, 6 weeks ago : deleting dice 
+Commited Files/Updated Files:
+.DS_Store
+.cproject
+.project
+Pandemic/.DS_Store
+Pandemic/Dice.cpp
+Pandemic/Dice.h
+
+Name: aquino.ardee@gmail.com, 7 weeks ago : fixes to player.cpp 
+Commited Files/Updated Files:
+Pandemic/Deck Driver Program/cards.txt
+Pandemic/Deck Driver Program/main.cpp
+Pandemic/Player.cpp
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 7 weeks ago : added player class and player header 
+Commited Files/Updated Files:
+Pandemic/Player.cpp
+Pandemic/Player.h
+
+Name: aquino.ardee@gmail.com, 7 weeks ago : fixing main 
+Commited Files/Updated Files:
+Pandemic/Deck.cpp
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 7 weeks ago : updating main error in main saying Deck.h was not located but there was two mains...fixed 
+Commited Files/Updated Files:
+Pandemic/Deck Driver Program/main.cpp
+Pandemic/Deck.h
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : changes to headers 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : Adding my story 
+Commited Files/Updated Files:
+Pandemic/Pandemic Stories/PandemicStory_ArdeeAquino.doc
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : fixed headers 
+Commited Files/Updated Files:
+Pandemic/City.cpp
+Pandemic/City.h
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : fixed errors on driverProgram.cpp and the header 
+Commited Files/Updated Files:
+Pandemic/driverProgram.cpp
+Pandemic/driverProgram.h
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : Eclipse files 
+Commited Files/Updated Files:
+Pandemic/.cproject
+Pandemic/.gitignore
+Pandemic/.project
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : changing main 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : adding pdf....dont know if we really need it. its the pdf from blackboard 
+Commited Files/Updated Files:
+Pandemic/Pandemic.pdf
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : eclipse test 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: aquino.ardee@gmail.com, 8 weeks ago : deleting lines, testing eclipse 
+Commited Files/Updated Files:
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/Pandemic.xcscheme
+Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/xcschememanagement.plist
+Pandemic/Pandemic.1
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : deleting stuff out of main 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode settings 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files as well as adding user Stories folder 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode file 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/File.txt
+Pandemic/THIS IS A TEST.txt
+Pandemic/driverProgram.cpp
+Pandemic/driverProgram.h
+Pandemic/main.cpp
+Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode file 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode and changes 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : test 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing main 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode update 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : update main.cpp 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding file.txt and changing Xcode files 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/File.txt
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding a line 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : just xcode update stuff 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode stuff 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : testing just changing the cpp a little bit 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directories 
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.pbxproj
+Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/Pandemic.xcscheme
+Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/xcschememanagement.plist
+Pandemic/Pandemic.xcodeproj/project.pbxproj
+Pandemic/Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Pandemic/Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic/Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/Pandemic.xcscheme
+Pandemic/Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/xcschememanagement.plist
+Pandemic/Pandemic/Pandemic.1
+Pandemic/Pandemic/main.cpp
+Pandemic/main.cpp
+Pandemic/roster.txt
+roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding roster.txt 
+Commited Files/Updated Files:
+roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directory 
+Commited Files/Updated Files:
+Pandemic/Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster adding ardee aquino 
+Commited Files/Updated Files:
+Pandemic/Pandemic.xcodeproj/project.pbxproj
+Pandemic/Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic/Pandemic/roster.txt
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Initial Commit 
+Commited Files/Updated Files:
+Pandemic/Pandemic.xcodeproj/project.pbxproj
+Pandemic/Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+Pandemic/Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
+Pandemic/Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/Pandemic.xcscheme
+Pandemic/Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/xcschememanagement.plist
+Pandemic/Pandemic/Pandemic.1
+Pandemic/Pandemic/main.cpp
