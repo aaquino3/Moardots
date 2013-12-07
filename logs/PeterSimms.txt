@@ -1,0 +1,222 @@
+Epidemc Project logs
+CS4310
+Peter Simms
+12/6/13
+
+
+commit 1b56632d9918b969e7c62cd9f254c1535f9c4b0f
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:51:17 2013 -0800
+
+    Remaining bitmaps
+
+    crossing my fingers it doesn't fail like last time...
+
+commit f26b569c88c586ce4e3fb2e4ef44cd3fe99ee374
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:49:28 2013 -0800
+
+    Stats bitmap images
+
+commit e90beafef8c745ff0e0d530358e81a6acbb33f3c
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:48:46 2013 -0800
+
+    binary thumbs change
+
+commit c99e6dd17e5cede36f26a2c99ab704efa8da44fe
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:47:54 2013 -0800
+
+    First five cities.bmp test
+
+commit ea8247e86302f387672274ce51ae848ad137d586
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:46:56 2013 -0800
+
+    added dynamic-link library
+
+commit 02ddca4b64cbbab45ff98c8992b4b244039a89a0
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:34:28 2013 -0800
+
+    SDL Thumbs
+
+commit 9ac8b7e88810b4af45a70df306c6bd72d0532318
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 22:01:40 2013 -0800
+
+    Problems with Git Hub
+
+commit 92056854d479fa0a6207d767f0748766d30b761b
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 21:40:59 2013 -0800
+
+    Rename main
+
+commit 544601cd9f6956e66ed40654102c86fe6889866a
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 20:54:41 2013 -0800
+
+    Board.bmp
+
+commit 767f3ebc9c426e9136504f0a254e457a819e4212
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 20:53:52 2013 -0800
+
+    Debug Folder
+
+commit 393eed89d9c2b58d09e0cfd8a9790a77b4585022
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Dec 6 20:52:55 2013 -0800
+
+    SDL Folder Added
+
+    Not sure how to connect this to the project but here is SDL stuff.
+**The SDL is what I was working on for the majority of the time toward 
+the end of the project. It was supposed to supplement for a GUI as a 
+graphical representation of the game being played.
+
+commit de3c8695a473a44e9aaab23172306137a1b6e7e7
+Author: ransackeld <kcransa@gmail.com>
+Date:   Thu Dec 5 00:39:24 2013 -0800
+
+    Added movePlayer method
+
+    Also added exitMenu
+
+commit edfd75d68da174d0e0e881c57d7948a550d97fb0
+Author: ransackeld <kcransa@gmail.com>
+Date:   Thu Dec 5 00:37:11 2013 -0800
+
+    Added test case of movePlayer
+
+    added test case and had to change controller.h to get it to run
+**Ran test case of moving the player via the action menu to a different city
+
+commit 16ba56d033bea4ce9ee6bfb33a9d2e0351b3e065
+Author: ransackeld <kcransa@gmail.com>
+Date:   Wed Dec 4 13:37:16 2013 -0800
+
+    Readme file created
+
+    Let's all add to this readme file.
+
+commit 0d1c64fe748e61d128c90d286a70031029abea87
+Author: ransackeld <kcransa@gmail.com>
+Date:   Sun Dec 1 15:13:47 2013 -0800
+
+    added all city names to deck.h
+
+    city names added
+
+commit 0fe961965bb5a7e70c63c5c5f294ebacc1531033
+Author: ransackeld <kcransa@gmail.com>
+Date:   Sun Dec 1 15:11:38 2013 -0800
+
+    more added random shuffle code
+
+    added random shuffle code when epidemic cards are added to piles
+
+commit 1121e185375fa4e1d913163cc5941db394fa333d
+Author: ransackeld <kcransa@gmail.com>
+Date:   Sun Dec 1 03:28:44 2013 -0800
+
+    Update Deck.h
+
+commit fca0883b66d7e4188c7378de0e1387902ccb3c46
+Author: ransackeld <kcransa@gmail.com>
+Date:   Sun Dec 1 03:27:41 2013 -0800
+
+    Updated deck.h with shuffles methods
+
+    Shuffle
+**Created shuffle method in Deck.h which would run 2 different
+kinds of shuffle methods - one for a generic shuffle
+and one method to shuffle, remove the epidemic cards, split
+the remaining cards into the same amount of piles as
+the epidemic cards, and shuffle 1 epidemic per pile back in
+
+commit fdefd0a7e11b5fd127a3b438becabc9f420bc033
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Oct 25 19:27:02 2013 -0700
+
+    Creating Stubs .cpp
+
+    Wasn't sure if this should be a .txt or .cpp file. I'll turn both in to the
+
+commit 2d7fc8c63f23ab8da9ecb34d4233a4c580ec1c4d
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Oct 25 19:21:51 2013 -0700
+
+    Updated list of Stubs
+
+commit 8ef03e433229f14cc7973887cf4f1d7b0a6157cc
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Oct 25 18:47:54 2013 -0700
+
+    Creating Stubs .txt
+
+    1st attempt
+**Created list of program method stubs
+**I was constantly asking what I could work on
+to help the group
+
+commit 58e4b2b45876a6c9ca20c83607f7033451df56f6
+Author: ransackeld <kcransa@gmail.com>
+Date:   Wed Oct 16 21:27:22 2013 -0700
+
+    Update Dice.h
+
+    update
+**Eventually the group decided to delete my Dice.h / Dice.cpp
+
+commit 70e1dc81128b895bbe3adcdd5f977eaa22ce1d47
+Author: ransackeld <kcransa@gmail.com>
+Date:   Wed Oct 16 21:26:45 2013 -0700
+
+    Created Dice.cpp
+
+    Simple and dirty.
+*Created random numbers
+
+commit efea59115daf51a0fbde20c9a3f9d59b34ef7066
+Author: ransackeld <kcransa@gmail.com>
+Date:   Wed Oct 16 21:15:03 2013 -0700
+
+    Created Dice.h
+
+    Added Dice.h - about to add Dice.cpp
+**The other members of my group really poured out of the gate with gusto
+to program this project and I was forced to try and play catch up for
+the entire quarter. I assumed we would need a file randomizing a number
+based on the throw of a pair of dice.
+
+commit 64b43e2aadd1a915056ab106a631364a9a501258
+Author: ransackeld <kcransa@gmail.com>
+Date:   Thu Oct 10 00:30:03 2013 -0700
+
+    Create My Game Story - Peter Simms
+
+    I added some rules from the pdf but also changed some of them too.
+
+commit a397f589fb3d5e6d43d8f2715ba53e9a16832ec6
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Oct 4 13:27:17 2013 -0700
+
+    changed it B!A!C!K!
+**Added it twice had to change it back
+
+commit 6b3333605330f454e480981e6abd8d47f4fd3c2c
+Author: ransackeld <kcransa@gmail.com>
+Date:   Fri Oct 4 13:25:51 2013 -0700
+
+    update roster
+**added my name
+
+commit c91778db1be24cc0552713b20acab905d081e69f
+Author: ransackeld <kcransa@gmail.com>
+Date:   Thu Oct 3 15:28:38 2013 -0700
+
+    change line
+**Learning how to add my name and sync github
