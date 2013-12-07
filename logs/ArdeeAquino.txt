@@ -1,8 +1,23 @@
-Name: aquino.ardee@gmail.com, 65 minutes ago : updating my log 
+Name: aquino.ardee@gmail.com, 39 minutes ago : updating file  
+Commited Files/Updated Files:
+.DS_Store
+
+Name: aquino.ardee@gmail.com, 44 minutes ago : changed my log name  
+Commited Files/Updated Files:
+.DS_Store
+logs/ArdeeAquino.txt
+logs/ardee.log
+
+Name: aquino.ardee@gmail.com, 2 hours ago : updating log, changing the way it looks  
+Commited Files/Updated Files:
+.DS_Store
+logs/ardee.log
+
+Name: aquino.ardee@gmail.com, 3 hours ago : updating my log  
 Commited Files/Updated Files:
 logs/ardee.log
 
-Name: aquino.ardee@gmail.com, 65 minutes ago : moving test cases to a folder and exporting my log to /logs directory 
+Name: aquino.ardee@gmail.com, 3 hours ago : moving test cases to a folder and exporting my log to /logs directory  
 Commited Files/Updated Files:
 .DS_Store
 Case 03.docx
@@ -13,13 +28,13 @@ Test Cases/MovePlayer Test Case.pdf
 Test Cases/Shuffle Test Case.pdf
 logs/ardee.log
 
-Name: aquino.ardee@gmail.com, 2 days ago : file change to vs 2012 
+Name: aquino.ardee@gmail.com, 2 days ago : file change to vs 2012  
 Commited Files/Updated Files:
 VS Project Folder/PANDEMIC.opensdf
 VS Project Folder/PANDEMIC.sdf
 VS Project Folder/PANDEMIC.v11.suo
 
-Name: aquino.ardee@gmail.com, 2 days ago : uploaded test case and updated deck.h srand(time(0)) warning to srand(unsigned(time(0))) 
+Name: aquino.ardee@gmail.com, 2 days ago : uploaded test case and updated deck.h srand(time(0)) warning to srand(unsigned(time(0)))  
 Commited Files/Updated Files:
 .DS_Store
 Shuffle Test Case.pdf
@@ -101,13 +116,13 @@ VS Project Folder/PANDEMIC/Debug/view.obj
 VS Project Folder/PANDEMIC/PANDEMIC.vcxproj
 VS Project Folder/PANDEMIC/deck.h
 
-Name: aquino.ardee@gmail.com, 3 weeks ago : checking main 
+Name: aquino.ardee@gmail.com, 3 weeks ago : checking main  
 Commited Files/Updated Files:
 Pandemic64.png
 Pandemic80.png
 ProgramStubs.cpp
 
-Name: aquino.ardee@gmail.com, 3 weeks ago : restored more files such as roster.txt, stubs, stories 
+Name: aquino.ardee@gmail.com, 3 weeks ago : restored more files such as roster.txt, stubs, stories  
 Commited Files/Updated Files:
 Pandemic Stories/My Game Story - Peter Simms
 Pandemic Stories/Pandemic Story - Spencer Dyer.doc
@@ -127,7 +142,7 @@ countTest.txt
 roleCards.txt
 roster.txt
 
-Name: aquino.ardee@gmail.com, 3 weeks ago : Restoring All Files... 
+Name: aquino.ardee@gmail.com, 3 weeks ago : Restoring All Files...  
 Commited Files/Updated Files:
 .DS_Store
 .cproject
@@ -232,30 +247,30 @@ mainwindow.cpp
 mainwindow.h
 mainwindow.ui
 
-Name: aquino.ardee@gmail.com, 3 weeks ago : delete files 
+Name: aquino.ardee@gmail.com, 3 weeks ago : delete files  
 Commited Files/Updated Files:
 .DS_Store
 Pandemic.pro.user
 Pandemic.pro.user.1.3
 Pandemic.pro.user.1ac63a0
 
-Name: aquino.ardee@gmail.com, 4 weeks ago : testing ssh 
+Name: aquino.ardee@gmail.com, 4 weeks ago : testing ssh  
 Commited Files/Updated Files:
 main.cpp
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : bleh 
+Name: aquino.ardee@gmail.com, 5 weeks ago : bleh  
 Commited Files/Updated Files:
 .DS_Store
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : checking QT ssh 
+Name: aquino.ardee@gmail.com, 5 weeks ago : checking QT ssh  
 Commited Files/Updated Files:
 main.cpp
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : testing qt push 
+Name: aquino.ardee@gmail.com, 5 weeks ago : testing qt push  
 Commited Files/Updated Files:
 main.cpp
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : reorganizing git to work with QT 
+Name: aquino.ardee@gmail.com, 5 weeks ago : reorganizing git to work with QT  
 Commited Files/Updated Files:
 .DS_Store
 Card.cpp
@@ -324,7 +339,7 @@ mainwindow.cpp
 mainwindow.h
 mainwindow.ui
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : changing folders, I moved the wrong folder 
+Name: aquino.ardee@gmail.com, 5 weeks ago : changing folders, I moved the wrong folder  
 Commited Files/Updated Files:
 .DS_Store
 PandemicSource_CPP/.DS_Store
@@ -395,7 +410,7 @@ QTPandemic/mainwindow.h
 QTPandemic/mainwindow.ui
 QT_PandemicProject/README.txt
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : rename folder 
+Name: aquino.ardee@gmail.com, 5 weeks ago : rename folder  
 Commited Files/Updated Files:
 .DS_Store
 Pandemic Source/.DS_Store
@@ -553,7 +568,7 @@ PandemicSource_CPP/main.cpp
 PandemicSource_CPP/roleCards.txt
 PandemicSource_CPP/roster.txt
 
-Name: aquino.ardee@gmail.com, 5 weeks ago : moving folders 
+Name: aquino.ardee@gmail.com, 5 weeks ago : moving folders  
 Commited Files/Updated Files:
 .DS_Store
 .cproject
@@ -716,11 +731,11 @@ Pandemic/roleCards.txt
 Pandemic/roster.txt
 QT_PandemicProject/README.txt
 
-Name: aquino.ardee@gmail.com, 6 weeks ago : deleted pandemic pdf, didnt need 
+Name: aquino.ardee@gmail.com, 6 weeks ago : deleted pandemic pdf, didnt need  
 Commited Files/Updated Files:
 Pandemic/Pandemic.pdf
 
-Name: aquino.ardee@gmail.com, 6 weeks ago : deleting dice 
+Name: aquino.ardee@gmail.com, 6 weeks ago : deleting dice  
 Commited Files/Updated Files:
 .DS_Store
 .cproject
@@ -729,84 +744,84 @@ Pandemic/.DS_Store
 Pandemic/Dice.cpp
 Pandemic/Dice.h
 
-Name: aquino.ardee@gmail.com, 7 weeks ago : fixes to player.cpp 
+Name: aquino.ardee@gmail.com, 7 weeks ago : fixes to player.cpp  
 Commited Files/Updated Files:
 Pandemic/Deck Driver Program/cards.txt
 Pandemic/Deck Driver Program/main.cpp
 Pandemic/Player.cpp
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 7 weeks ago : added player class and player header 
+Name: aquino.ardee@gmail.com, 7 weeks ago : added player class and player header  
 Commited Files/Updated Files:
 Pandemic/Player.cpp
 Pandemic/Player.h
 
-Name: aquino.ardee@gmail.com, 7 weeks ago : fixing main 
+Name: aquino.ardee@gmail.com, 7 weeks ago : fixing main  
 Commited Files/Updated Files:
 Pandemic/Deck.cpp
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 7 weeks ago : updating main error in main saying Deck.h was not located but there was two mains...fixed 
+Name: aquino.ardee@gmail.com, 7 weeks ago : updating main error in main saying Deck.h was not located but there was two mains...fixed  
 Commited Files/Updated Files:
 Pandemic/Deck Driver Program/main.cpp
 Pandemic/Deck.h
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : changes to headers 
+Name: aquino.ardee@gmail.com, 8 weeks ago : changes to headers  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : Adding my story 
+Name: aquino.ardee@gmail.com, 8 weeks ago : Adding my story  
 Commited Files/Updated Files:
 Pandemic/Pandemic Stories/PandemicStory_ArdeeAquino.doc
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : fixed headers 
+Name: aquino.ardee@gmail.com, 8 weeks ago : fixed headers  
 Commited Files/Updated Files:
 Pandemic/City.cpp
 Pandemic/City.h
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : fixed errors on driverProgram.cpp and the header 
+Name: aquino.ardee@gmail.com, 8 weeks ago : fixed errors on driverProgram.cpp and the header  
 Commited Files/Updated Files:
 Pandemic/driverProgram.cpp
 Pandemic/driverProgram.h
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : Eclipse files 
+Name: aquino.ardee@gmail.com, 8 weeks ago : Eclipse files  
 Commited Files/Updated Files:
 Pandemic/.cproject
 Pandemic/.gitignore
 Pandemic/.project
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : changing main 
+Name: aquino.ardee@gmail.com, 8 weeks ago : changing main  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : adding pdf....dont know if we really need it. its the pdf from blackboard 
+Name: aquino.ardee@gmail.com, 8 weeks ago : adding pdf....dont know if we really need it. its the pdf from blackboard  
 Commited Files/Updated Files:
 Pandemic/Pandemic.pdf
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse 
+Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : eclipse test 
+Name: aquino.ardee@gmail.com, 8 weeks ago : eclipse test  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse 
+Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse 
+Name: aquino.ardee@gmail.com, 8 weeks ago : testing eclipse  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: aquino.ardee@gmail.com, 8 weeks ago : deleting lines, testing eclipse 
+Name: aquino.ardee@gmail.com, 8 weeks ago : deleting lines, testing eclipse  
 Commited Files/Updated Files:
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
@@ -816,43 +831,43 @@ Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/Pandemic.xcscheme
 Pandemic.xcodeproj/xcuserdata/Ardee.xcuserdatad/xcschemes/xcschememanagement.plist
 Pandemic/Pandemic.1
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : deleting stuff out of main 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : deleting stuff out of main  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode settings 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode settings  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files as well as adding user Stories folder 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files as well as adding user Stories folder  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode file 
-Commited Files/Updated Files:
-Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
-
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master' 
-Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode file  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header 
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'  
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header  
+Commited Files/Updated Files:
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+
+Name: Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
@@ -863,122 +878,122 @@ Pandemic/driverProgram.h
 Pandemic/main.cpp
 Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode file 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode file  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode and changes 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode and changes  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/main.cpp
 Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
-Commited Files/Updated Files:
-Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
-
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : test 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
-Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing main 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : test  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing main  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
+Pandemic/main.cpp
+
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'  
+Commited Files/Updated Files:
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode update 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode update  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : update main.cpp 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : update main.cpp  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding file.txt and changing Xcode files 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding file.txt and changing Xcode files  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/File.txt
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding a line 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding a line  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : just xcode update stuff 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : just xcode update stuff  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master' 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'  
 Commited Files/Updated Files:
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode stuff 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode stuff  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : testing just changing the cpp a little bit 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : testing just changing the cpp a little bit  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.xcworkspace/xcuserdata/Ardee.xcuserdatad/UserInterfaceState.xcuserstate
 Pandemic/main.cpp
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directories 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directories  
 Commited Files/Updated Files:
 Pandemic.xcodeproj/project.pbxproj
 Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
@@ -997,21 +1012,21 @@ Pandemic/main.cpp
 Pandemic/roster.txt
 roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding roster.txt 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding roster.txt  
 Commited Files/Updated Files:
 roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directory 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directory  
 Commited Files/Updated Files:
 Pandemic/Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster adding ardee aquino 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster adding ardee aquino  
 Commited Files/Updated Files:
 Pandemic/Pandemic.xcodeproj/project.pbxproj
 Pandemic/Pandemic.xcodeproj/project.xcworkspace/xcshareddata/Pandemic.xccheckout
 Pandemic/Pandemic/roster.txt
 
-Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Initial Commit 
+Name: Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Initial Commit  
 Commited Files/Updated Files:
 Pandemic/Pandemic.xcodeproj/project.pbxproj
 Pandemic/Pandemic.xcodeproj/project.xcworkspace/contents.xcworkspacedata
