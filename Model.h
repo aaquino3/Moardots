@@ -2,9 +2,13 @@
 #define MODEL_H
 //for testing only
 #include <iostream>
-#include <string>
 using namespace std;
 // end of testing
+//needed for loading
+// dont know about Card.h since no load methods
+#include <string>
+#include "Card.h"
+//end of loading
 
 #include "player.h"
 #include "deck.h"
@@ -209,7 +213,8 @@ void model::saveGame()
 	file.openWrite();
 	
 	int numberOfPlayerCards = Pdeck->getDeckSize();
-	
+	file.writeLine(numberOfPlayerCards);
+
 	for(int counter = 0; counter < numberOfPlayerCards; counter++)
 	{
 		if(Pdeck->getCard(counter).getType() == true)
@@ -228,7 +233,9 @@ void model::saveGame()
 	// save infection deck
 	file.setWriteFileName(infectionDeckFileName);
 	file.openWrite();
+	
 	int numberOfInfectionCards = Ideck->getDeckSize();
+	file.writeLine(numberOfInfectionCards);
 
 	for(int counter = 0; counter < numberOfInfectionCards; counter++)
 	{
@@ -363,21 +370,101 @@ void model::loadGame()
 	string player3FileName = "player3.txt";
 	string player4FileName = "player4.txt";
 	//===================================================================================
-	string temp;
-	
+	//temp data because no methods to load data
+
+	int tempInfectionDeckSize = 0;
+	int tempPlayerDeckSize = 0;
+	card *tempPlayerCards;
+	card *tempInfectionCards;
+	//card *tempCard;
+	//===================================================================================
+	// read number of players
+	file.setReadFileName(numberOfPlayersFileName);
+	file.openRead();
+	file.readLine();
+	numPlayers = atoi(file.getLine().c_str());
+	file.closeRead();
+	//===================================================================================
+	// read player deck size;
 	file.setReadFileName(playerdDeckFileName);
 	file.openRead();
-	while(true)
+	
+	if(file.readLine() == 0)
+		tempPlayerDeckSize = atoi(file.getLine().c_str());
+	
+	tempPlayerCards = new card[tempPlayerDeckSize];
+	for(int i = 0; i < tempPlayerDeckSize; i++)
 	{
-		if(file.readLine() == 0)
-			cout << file.getLine() << endl;
-		else
-			break;
-		if(file.readLine() == 0)
-			cout << file.getLine() << endl;
-		else
-			break;
-	}
+		bool type = true;	// player card = true
+		string name = "";
+		string description = "";
+		int event = 0;
+		int city = 0;
+		
+		file.readLine();
+		name = file.getLine();
+
+		file.readLine();
+		description = file.getLine();
+
+		file.readLine();
+		event = atoi(file.getLine().c_str());
+
+		file.readLine();
+		city = atoi(file.getLine().c_str());
+
+		card tempCard(type,name,description,event,city);
+		tempPlayerCards[i] = tempCard;
+	}// end for loop
+
+	// test for checking cards where inserted
+	//for(int i = 0; i < tempPlayerDeckSize; i++)
+	//{
+	//	cout << "start of card" << endl;
+	//	cout << tempPlayerCards[i].getCity() << endl;
+	//	cout << tempPlayerCards[i].getDescription() << endl;
+	//	cout << tempPlayerCards[i].getEvent() << endl;
+	//	cout << tempPlayerCards[i].getName() << endl;
+	//	cout << tempPlayerCards[i].getType() << endl;
+	//	cout << "End of card " << "\n\n" << endl;
+	//}
+	
+	file.closeRead();
+	//===================================================================================
+	// read infection deck size
+	file.setReadFileName(infectionDeckFileName);
+	file.openRead();
+	
+	if(file.readLine() == 0)
+		tempInfectionDeckSize = atoi(file.getLine().c_str());
+
+	//create temp cards
+	tempInfectionCards = new card[tempInfectionDeckSize];
+	//===================================================================================
+	// read in infection cards
+	for(int i = 0; i < tempInfectionDeckSize; i++)
+	{
+		bool type = true;	// player card = true
+		string name = "";
+		string description = "";
+		int event = 0;
+		int city = 0;
+		
+		file.readLine();
+		name = file.getLine();
+
+		file.readLine();
+		description = file.getLine();
+
+		file.readLine();
+		event = atoi(file.getLine().c_str());
+
+		file.readLine();
+		city = atoi(file.getLine().c_str());
+
+		card tempCard(type,name,description,event,city);
+		tempInfectionCards[i] = tempCard;
+	}// end for loop
 	file.closeRead();
 }
 #endif // MODEL_H
