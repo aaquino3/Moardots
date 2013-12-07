@@ -1,0 +1,211 @@
+c6b2f8b - aquino.ardee@gmail.com, 2 days ago : file change to vs 2012
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+f3cc626 - aquino.ardee@gmail.com, 2 days ago : uploaded test case and updated deck.h srand(time(0)) warning to srand(unsigned(time(0)))
+ 79 files changed, 27 insertions(+), 76 deletions(-)
+
+94575bf - aquino.ardee@gmail.com, 3 weeks ago : checking main
+ 3 files changed, 5 insertions(+), 4 deletions(-)
+
+5e7ffdc - aquino.ardee@gmail.com, 3 weeks ago : restored more files such as roster.txt, stubs, stories
+ 17 files changed, 322 insertions(+)
+
+2ec8b22 - aquino.ardee@gmail.com, 3 weeks ago : Restoring All Files...
+ 102 files changed, 136 insertions(+), 63225 deletions(-)
+
+12860aa - aquino.ardee@gmail.com, 3 weeks ago : delete files
+ 4 files changed, 1006 deletions(-)
+
+7f2a40c - aquino.ardee@gmail.com, 4 weeks ago : testing ssh
+ 1 file changed, 1 insertion(+)
+
+ab9bed0 - aquino.ardee@gmail.com, 5 weeks ago : bleh
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+b5c2b2e - aquino.ardee@gmail.com, 5 weeks ago : checking QT ssh
+ 1 file changed, 1 deletion(-)
+
+abf1aeb - aquino.ardee@gmail.com, 5 weeks ago : testing qt push
+ 1 file changed, 1 insertion(+)
+
+ac86c70 - aquino.ardee@gmail.com, 5 weeks ago : reorganizing git to work with QT
+ 66 files changed, 2119 insertions(+), 1862 deletions(-)
+
+fb151ec - aquino.ardee@gmail.com, 5 weeks ago : changing folders, I moved the wrong folder
+ 68 files changed, 1868 insertions(+), 1868 deletions(-)
+
+9921202 - aquino.ardee@gmail.com, 5 weeks ago : rename folder
+ 155 files changed, 3296 insertions(+), 3296 deletions(-)
+
+80d8c90 - aquino.ardee@gmail.com, 5 weeks ago : moving folders
+ 160 files changed, 3331 insertions(+), 3317 deletions(-)
+
+12b758d - aquino.ardee@gmail.com, 6 weeks ago : deleted pandemic pdf, didnt need
+ 1 file changed, 306157 deletions(-)
+
+b1094b1 - aquino.ardee@gmail.com, 6 weeks ago : deleting dice
+ 6 files changed, 140 insertions(+), 34 deletions(-)
+
+3689d9d - aquino.ardee@gmail.com, 7 weeks ago : fixes to player.cpp
+ 4 files changed, 10 insertions(+), 41 deletions(-)
+
+96a3881 - aquino.ardee@gmail.com, 7 weeks ago : added player class and player header
+ 2 files changed, 57 insertions(+)
+
+a0f8e8f - aquino.ardee@gmail.com, 7 weeks ago : fixing main
+ 2 files changed, 4 insertions(+), 5 deletions(-)
+
+f402891 - aquino.ardee@gmail.com, 7 weeks ago : updating main error in main saying Deck.h was not located but there was two mains...fixed
+ 3 files changed, 24 insertions(+), 46 deletions(-)
+
+9a04c49 - aquino.ardee@gmail.com, 8 weeks ago : changes to headers
+ 1 file changed, 3 insertions(+)
+
+12cd0f0 - aquino.ardee@gmail.com, 8 weeks ago : Adding my story
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+809ec52 - aquino.ardee@gmail.com, 8 weeks ago : fixed headers
+ 3 files changed, 2 insertions(+), 17 deletions(-)
+
+2c14d65 - aquino.ardee@gmail.com, 8 weeks ago : fixed errors on driverProgram.cpp and the header
+ 2 files changed, 6 insertions(+), 6 deletions(-)
+
+b17217a - aquino.ardee@gmail.com, 8 weeks ago : Eclipse files
+ 3 files changed, 144 insertions(+)
+
+3c4e555 - aquino.ardee@gmail.com, 8 weeks ago : changing main
+ 1 file changed, 1 insertion(+)
+
+9f614c0 - aquino.ardee@gmail.com, 8 weeks ago : adding pdf....dont know if we really need it. its the pdf from blackboard
+ 2 files changed, 306157 insertions(+), 2 deletions(-)
+
+433151f - aquino.ardee@gmail.com, 8 weeks ago : testing eclipse
+ 1 file changed, 1 insertion(+)
+
+3d80007 - aquino.ardee@gmail.com, 8 weeks ago : eclipse test
+ 1 file changed, 3 deletions(-)
+
+12eaeb6 - aquino.ardee@gmail.com, 8 weeks ago : testing eclipse
+ 1 file changed, 1 insertion(+)
+
+20d9884 - aquino.ardee@gmail.com, 8 weeks ago : testing eclipse
+ 1 file changed, 1 deletion(-)
+
+9b22049 - aquino.ardee@gmail.com, 8 weeks ago : deleting lines, testing eclipse
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+0e08ffc - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes
+ 7 files changed, 297 insertions(+), 446 deletions(-)
+
+d32d2d6 - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+7eed46e - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : deleting stuff out of main
+ 2 files changed, 6 deletions(-)
+
+17470a6 - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode settings
+ 2 files changed, 5 insertions(+), 3 deletions(-)
+
+a6b1fcf - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode changes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+90c86a9 - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files as well as adding user Stories folder
+ 3 files changed, 11 insertions(+)
+
+d1bef4e - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'
+a5113ca - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : xcode file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+71c2adf - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : Merge remote-tracking branch 'origin/master'
+b71cd9c - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+0e99e4c - Ardee@Ardees-MacBook-Pro.local, 8 weeks ago : adding files, main, driver, header
+ 8 files changed, 34 insertions(+), 9 deletions(-)
+
+38252ee - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
+d56c8cd - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+eda801e - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+af588a7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster
+ 2 files changed, 1 deletion(-)
+
+2b8f0bb - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 3 files changed, 3 insertions(+), 12 deletions(-)
+
+20ffc6f - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
+761655c - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode file
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+a13bfe7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode and changes
+ 3 files changed, 4 insertions(+), 5 deletions(-)
+
+0d31923 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
+c2adf34 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+ce6e4e4 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+e589c10 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+afe7103 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+f7d77e7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : test
+ 2 files changed, 3 insertions(+)
+
+b06fb69 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing main
+ 2 files changed, 1 insertion(+), 10 deletions(-)
+
+8888c0e - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
+489f324 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+5b9dd1c - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+b6cb3a2 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
+3048886 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode update
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+bb47a48 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : xcode settings
+ 2 files changed, 4 insertions(+)
+
+82327de - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : update main.cpp
+ 2 files changed, 2 deletions(-)
+
+d8ffec7 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding file.txt and changing Xcode files
+ 4 files changed, 4 insertions(+)
+
+3f21f4c - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding a line
+ 2 files changed, 1 insertion(+)
+
+f1d7acf - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : just xcode update stuff
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+39231de - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Merge remote-tracking branch 'origin/master'
+1a5b75b - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Xcode stuff
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+22b2656 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : testing just changing the cpp a little bit
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+6921788 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directories
+ 16 files changed, 404 insertions(+), 488 deletions(-)
+
+9181439 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : adding roster.txt
+ 1 file changed, 1 insertion(+)
+
+308e2b1 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing directory
+ 1 file changed, 1 deletion(-)
+
+58a3847 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : changing roster adding ardee aquino
+ 3 files changed, 5 insertions(+), 2 deletions(-)
+
+dfbc7e8 - Ardee@Ardees-MacBook-Pro.local, 9 weeks ago : Initial Commit
+ 7 files changed, 485 insertions(+)
