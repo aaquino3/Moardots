@@ -1,0 +1,104 @@
+commit e75b476846c21272b8d799cdfc98e334bca07b1a
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Fri Dec 6 10:33:47 2013 -0800
+
+    updated to most current version
+
+commit ba17c0e4b30c594fe70bdf2ba5bf9c4adbe3a7ff
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Mon Dec 2 22:19:27 2013 -0800
+
+    Updating the project to the current working version
+    
+    I added all of the new methods and data, as well as the updated MVC. I
+    also cleaned up the repository a little bit. There is a folder labelled
+    “VS Project” that has the project for VS 2012 if anyone wants to just
+    copy that folder out and run it. I know this is clunky, but we are
+    getting really close to a finished product here.
+    
+    Please please please please run test cases on some of the major methods
+    in the project ASAP, this is our last week!!!
+
+commit 023f38ba310df145ae89a8bdbf79960953a517bf
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Thu Nov 21 18:43:01 2013 -0800
+
+    Map.h no longer needed, replaced with board.
+    
+    I replaced map with the board class, it is now obsolete.
+
+commit d80de47ebc2f7ab4cd76d2cbaa936706a26eece2
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Thu Nov 21 18:39:31 2013 -0800
+
+    Updating application core
+    
+    I have reworked the application from the ground up. It is now building
+    and running, and should be moving through the first menus, and setting
+    up the game data. I consolidated the .h and .cpp files to make the
+    project easier to navigate. I tried to commet heavily, however in the
+    interest of time, some things are still uncommeted. I will write up a
+    change log in the near future and detail the specific functionality of
+    the application to make unit testing easier.
+
+commit 1edcccbf949ca747a1c0ec97f5b54be2595c5d87
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Fri Nov 1 16:37:43 2013 -0700
+
+    Updated the hand classes to include a private data member to keep track
+    of hand size, and a public access method to get the current size of the
+    hand.
+
+commit 6e04632612afab9ed69f693dc4dac5c8e4bec753
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Fri Nov 1 16:25:05 2013 -0700
+
+    Updated the card.h, card.cpp, deck.h, deck.cpp, working on hand and
+    player right now.
+
+commit 504e5bb0591c077e725a2f2589ba28cfca1569b4
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Tue Oct 29 15:41:03 2013 -0700
+
+    GUI File for QT
+    
+    board with button (non functional) added, project builds and runs in
+    QT. more updates to come.
+
+commit 4b64a846907b0fd2a5431a573aed0587910ec6b4
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Thu Oct 10 18:23:58 2013 -0700
+
+    Player Story in .doc format
+    
+    I added this in .doc because it wasn't showing up in xcode as a .pdf.
+    It is less beautiful, but still contains all the information.
+
+commit 7587a2fd5cbe07a00669683936707eef34d0f6dd
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Thu Oct 10 18:16:10 2013 -0700
+
+    Adding My Player Story
+    
+    It is basically a condensed version of the rules, including what is
+    necessary to mimic the actual game.
+
+commit 2acb6e2cf8b16625da6f94d1aa341a414d8502a9
+Merge: 3a76a63 b06fb69
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Thu Oct 3 15:09:10 2013 -0700
+
+    Merge branch 'master' of https://github.com/aaquino3/Moardots
+    
+    Conflicts:
+    	Pandemic/main.cpp
+
+commit 3a76a634eff1040613ff0c3427e5a7294d939402
+Author: spencerdyer <spencerdyer@spencers-MacBook-Pro.local>
+Date:   Wed Oct 2 20:31:50 2013 -0700
+
+    Added name to the roster
+    
+    I added my name to the roster and have downloaded the Git client for
+    Mac. I also edited the main.cpp file to include my own output statement
+    of my activity.
