@@ -1,18 +1,23 @@
-1039f11 Name: aquino.ardee@gmail.com, 13 minutes ago : updating log 
+74be513 Name: aquino.ardee@gmail.com, 41 seconds ago : log update 
+Notes:i updated my log to include the hash tag
+Commited Files/Updated Files:
+logs/ArdeeAquino.txt
+
+1039f11 Name: aquino.ardee@gmail.com, 14 minutes ago : updating log 
 Notes:log now shows notes
 Commited Files/Updated Files:
 logs/ArdeeAquino.txt
 
-699875b Name: aquino.ardee@gmail.com, 18 minutes ago : updated log 
+699875b Name: aquino.ardee@gmail.com, 19 minutes ago : updated log 
 Notes:updated to show comments/notes
 Commited Files/Updated Files:
 logs/ArdeeAquino.txt
 
-668f263 Name: aquino.ardee@gmail.com, 57 minutes ago : updating file 
+668f263 Name: aquino.ardee@gmail.com, 58 minutes ago : updating file 
 Notes:Commited Files/Updated Files:
 .DS_Store
 
-c037140 Name: aquino.ardee@gmail.com, 63 minutes ago : changed my log name 
+c037140 Name: aquino.ardee@gmail.com, 64 minutes ago : changed my log name 
 Notes:Commited Files/Updated Files:
 .DS_Store
 logs/ArdeeAquino.txt
