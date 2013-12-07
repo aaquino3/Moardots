@@ -1,0 +1,421 @@
+��N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �4�8� �s�e�c�o�n�d�s� �a�g�o� �:� �R�e�v�e�r�t� �"�.�.�"� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�f�i�l�e�n�a�m�e�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �5�1� �s�e�c�o�n�d�s� �a�g�o� �:� �.�.� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�f�i�l�e�n�a�m�e�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �8� �m�i�n�u�t�e�s� �a�g�o� �:� �L�o�g� �F�i�l�e� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�l�o�g�s�/�P�e�t�e�r�S�i�m�m�s�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2�8� �m�i�n�u�t�e�s� �a�g�o� �:� �R�e�m�a�i�n�i�n�g� �b�i�t�m�a�p�s� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�O�u�t�B�r�e�a�k�C�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�0�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�1�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�2�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�3�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�4�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�5�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�6�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�7�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�8�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�1�9�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�0�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�1�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�2�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�3�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�4�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�5�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�6�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�7�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�8�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�9�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�0�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�1�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�2�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�3�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�4�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�5�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�6�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�7�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�8�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�9�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�0�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�1�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�2�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�3�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�4�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�5�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�6�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�7�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�8�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�6�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�7�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�8�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�9�.�b�m�p�
+�
+�S�D�L�/�e�i�g�h�t�.�b�m�p�
+�
+�S�D�L�/�f�i�v�e�.�b�m�p�
+�
+�S�D�L�/�f�o�u�r�.�b�m�p�
+�
+�S�D�L�/�o�n�e�.�b�m�p�
+�
+�S�D�L�/�p�l�a�y�e�r�1�.�b�m�p�
+�
+�S�D�L�/�p�l�a�y�e�r�2�.�b�m�p�
+�
+�S�D�L�/�p�l�a�y�e�r�3�.�b�m�p�
+�
+�S�D�L�/�p�l�a�y�e�r�4�.�b�m�p�
+�
+�S�D�L�/�s�e�v�e�n�.�b�m�p�
+�
+�S�D�L�/�s�i�x�.�b�m�p�
+�
+�S�D�L�/�t�h�r�e�e�.�b�m�p�
+�
+�S�D�L�/�t�w�o�.�b�m�p�
+�
+�S�D�L�/�z�e�r�o�.�b�m�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �3�0� �m�i�n�u�t�e�s� �a�g�o� �:� �S�t�a�t�s� �b�i�t�m�a�p� �i�m�a�g�e�s� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�s�t�a�t�s�C�.�b�m�p�
+�
+�S�D�L�/�s�t�a�t�s�O�.�b�m�p�
+�
+�S�D�L�/�s�t�a�t�s�P�M�.�b�m�p�
+�
+�S�D�L�/�s�t�a�t�s�P�R�.�b�m�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �3�1� �m�i�n�u�t�e�s� �a�g�o� �:� �b�i�n�a�r�y� �t�h�u�m�b�s� �c�h�a�n�g�e� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�T�h�u�m�b�s�.�d�b�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �3�2� �m�i�n�u�t�e�s� �a�g�o� �:� �F�i�r�s�t� �f�i�v�e� �c�i�t�i�e�s�.�b�m�p� �t�e�s�t� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�c�i�t�y�1�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�2�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�3�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�4�.�b�m�p�
+�
+�S�D�L�/�c�i�t�y�5�.�b�m�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �3�3� �m�i�n�u�t�e�s� �a�g�o� �:� �a�d�d�e�d� �d�y�n�a�m�i�c�-�l�i�n�k� �l�i�b�r�a�r�y� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�G�i�t�H�u�b�P�r�o�b�l�e�m�s�.�t�x�t�
+�
+�S�D�L�/�S�D�L�.�d�l�l�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �4�5� �m�i�n�u�t�e�s� �a�g�o� �:� �S�D�L� �T�h�u�m�b�s� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�T�h�u�m�b�s�.�d�b�
+�
+�T�h�u�m�b�s�.�d�b�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �7�8� �m�i�n�u�t�e�s� �a�g�o� �:� �P�r�o�b�l�e�m�s� �w�i�t�h� �G�i�t� �H�u�b� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�G�i�t�H�u�b�P�r�o�b�l�e�m�s�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �h�o�u�r�s� �a�g�o� �:� �R�e�n�a�m�e� �m�a�i�n� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�m�a�i�n�.�c�p�p�
+�
+�S�D�L�/�m�a�i�n�.�c�p�p�.�c�p�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �h�o�u�r�s� �a�g�o� �:� �B�o�a�r�d�.�b�m�p� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�b�o�a�r�d�.�b�m�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �h�o�u�r�s� �a�g�o� �:� �D�e�b�u�g� �F�o�l�d�e�r� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�D�e�b�u�g�/�C�L�.�r�e�a�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�C�L�.�w�r�i�t�e�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�D�r�i�v�e�r�.�o�b�j�
+�
+�S�D�L�/�D�e�b�u�g�/�S�D�L�_�P�a�n�.�e�x�e�.�i�n�t�e�r�m�e�d�i�a�t�e�.�m�a�n�i�f�e�s�t�
+�
+�S�D�L�/�D�e�b�u�g�/�S�D�L�_�P�a�n�.�l�a�s�t�b�u�i�l�d�s�t�a�t�e�
+�
+�S�D�L�/�D�e�b�u�g�/�S�D�L�_�P�a�n�.�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�c�l�.�c�o�m�m�a�n�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�-�c�v�t�r�e�s�.�r�e�a�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�-�c�v�t�r�e�s�.�w�r�i�t�e�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�-�r�c�.�r�e�a�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�-�r�c�.�w�r�i�t�e�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�.�c�o�m�m�a�n�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�.�r�e�a�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�l�i�n�k�.�w�r�i�t�e�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�m�a�i�n�.�o�b�j�
+�
+�S�D�L�/�D�e�b�u�g�/�m�t�.�c�o�m�m�a�n�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�m�t�.�r�e�a�d�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�m�t�.�w�r�i�t�e�.�1�.�t�l�o�g�
+�
+�S�D�L�/�D�e�b�u�g�/�v�c�1�0�0�.�i�d�b�
+�
+�S�D�L�/�D�e�b�u�g�/�v�c�1�0�0�.�p�d�b�
+�
+�S�D�L�/�D�e�b�u�g�/�v�c�1�1�0�.�i�d�b�
+�
+�S�D�L�/�D�e�b�u�g�/�v�c�1�1�0�.�p�d�b�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �h�o�u�r�s� �a�g�o� �:� �S�D�L� �F�o�l�d�e�r� �A�d�d�e�d� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�S�D�L�/�m�a�i�n�.�c�p�p�.�c�p�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �d�a�y�s� �a�g�o� �:� �A�d�d�e�d� �m�o�v�e�P�l�a�y�e�r� �m�e�t�h�o�d� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�C�o�n�t�r�o�l�l�e�r�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �d�a�y�s� �a�g�o� �:� �A�d�d�e�d� �t�e�s�t� �c�a�s�e� �o�f� �m�o�v�e�P�l�a�y�e�r� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�M�o�v�e�P�l�a�y�e�r� �T�e�s�t� �C�a�s�e�.�p�d�f�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �2� �d�a�y�s� �a�g�o� �:� �R�e�a�d�m�e� �f�i�l�e� �c�r�e�a�t�e�d� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�R�E�A�D�M�E�.�m�d�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �5� �d�a�y�s� �a�g�o� �:� �a�d�d�e�d� �a�l�l� �c�i�t�y� �n�a�m�e�s� �t�o� �d�e�c�k�.�h� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�D�e�c�k�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �5� �d�a�y�s� �a�g�o� �:� �m�o�r�e� �a�d�d�e�d� �r�a�n�d�o�m� �s�h�u�f�f�l�e� �c�o�d�e� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�D�e�c�k�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �6� �d�a�y�s� �a�g�o� �:� �U�p�d�a�t�e� �D�e�c�k�.�h� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�D�e�c�k�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �6� �d�a�y�s� �a�g�o� �:� �U�p�d�a�t�e�d� �d�e�c�k�.�h� �w�i�t�h� �s�h�u�f�f�l�e�s� �m�e�t�h�o�d�s� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�D�e�c�k�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �6� �w�e�e�k�s� �a�g�o� �:� �C�r�e�a�t�i�n�g� �S�t�u�b�s� �.�c�p�p� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�P�r�o�g�r�a�m�S�t�u�b�s�.�c�p�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �6� �w�e�e�k�s� �a�g�o� �:� �U�p�d�a�t�e�d� �l�i�s�t� �o�f� �S�t�u�b�s� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�P�r�o�g�r�a�m�S�t�u�b�s�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �6� �w�e�e�k�s� �a�g�o� �:� �C�r�e�a�t�i�n�g� �S�t�u�b�s� �.�t�x�t� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�P�r�o�g�r�a�m�S�t�u�b�s�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �7� �w�e�e�k�s� �a�g�o� �:� �U�p�d�a�t�e� �D�i�c�e�.�h� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�D�i�c�e�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �7� �w�e�e�k�s� �a�g�o� �:� �C�r�e�a�t�e�d� �D�i�c�e�.�c�p�p� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�D�i�c�e�.�c�p�p�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �7� �w�e�e�k�s� �a�g�o� �:� �C�r�e�a�t�e�d� �D�i�c�e�.�h� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�D�i�c�e�.�h�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �8� �w�e�e�k�s� �a�g�o� �:� �C�r�e�a�t�e� �M�y� �G�a�m�e� �S�t�o�r�y� �-� �P�e�t�e�r� �S�i�m�m�s� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�P�a�n�d�e�m�i�c� �S�t�o�r�i�e�s�/�M�y� �G�a�m�e� �S�t�o�r�y� �-� �P�e�t�e�r� �S�i�m�m�s�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �9� �w�e�e�k�s� �a�g�o� �:� �c�h�a�n�g�e�d� �i�t� �B�!�A�!�C�!�K�!� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�r�o�s�t�e�r�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �9� �w�e�e�k�s� �a�g�o� �:� �u�p�d�a�t�e� �r�o�s�t�e�r� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�r�o�s�t�e�r�.�t�x�t�
+�
+�
+�
+�N�a�m�e�:� �k�c�r�a�n�s�a�@�g�m�a�i�l�.�c�o�m�,� �9� �w�e�e�k�s� �a�g�o� �:� �c�h�a�n�g�e� �l�i�n�e� � �
+�
+�C�o�m�m�i�t�e�d� �F�i�l�e�s�/�U�p�d�a�t�e�d� �F�i�l�e�s�:�
+�
+�P�a�n�d�e�m�i�c�/�r�o�s�t�e�r�.�t�x�t�
+�
+�
